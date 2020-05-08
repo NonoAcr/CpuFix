@@ -1,0 +1,230 @@
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojResolveAssemblyReference.cache
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.Cache
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+c:\users\josé mendoza\documents\visual studio 2013\Projects\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\jose_\Desktop\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\jose_\Desktop\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\jose_\Desktop\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojResolveAssemblyReference.cache
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.Cache
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.BorrarEmpleados.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+C:\Users\jose_\Desktop\Nueva carpeta\Programas Mendoza (1)\Programas Mendoza\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojResolveAssemblyReference.cache
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.Cache
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajos.resources
+E:\Tecnocom wolf\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojResolveAssemblyReference.cache
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajos.resources
+C:\Users\Elisa Baez\Desktop\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.Cache
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojResolveAssemblyReference.cache
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajos.resources
+C:\Users\Elisa Baez\Documents\ith\MATERIAS\ING DE SW\Proyecto Ing. Software\Proyecto Ing. Software\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.Cache
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojResolveAssemblyReference.cache
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajos.resources
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.Cache
+C:\Users\Elisa Baez\Desktop\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Estandar.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojResolveAssemblyReference.cache
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Estandar.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajos.resources
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.Cache
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.CoreCompileInputs.cache
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+E:\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojResolveAssemblyReference.cache
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Estandar.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajos.resources
+C:\Users\arnol\Desktop\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.Cache
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojResolveAssemblyReference.cache
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Estandar.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajos.resources
+C:\Users\arnol\Desktop\Escuela\Bueno\Cpu Fix\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.Cache
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojAssemblyReference.cache
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Estandar.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajos.resources
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.cache
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.CoreCompileInputs.cache
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\arnol\Documents\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojAssemblyReference.cache
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Clientes.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Estandar.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajadores.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Trabajos.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.cache
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
