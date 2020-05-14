@@ -29,30 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Trabajos));
-            this.BtnAgregar = new System.Windows.Forms.Button();
-            this.BtnConsultar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // BtnAgregar
-            // 
-            this.BtnAgregar.Location = new System.Drawing.Point(27, 125);
-            this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.BtnAgregar.TabIndex = 1;
-            this.BtnAgregar.Text = "Agregar";
-            this.BtnAgregar.UseVisualStyleBackColor = true;
-            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
-            // 
-            // BtnConsultar
-            // 
-            this.BtnConsultar.Location = new System.Drawing.Point(180, 125);
-            this.BtnConsultar.Name = "BtnConsultar";
-            this.BtnConsultar.Size = new System.Drawing.Size(75, 23);
-            this.BtnConsultar.TabIndex = 2;
-            this.BtnConsultar.Text = "Consultar";
-            this.BtnConsultar.UseVisualStyleBackColor = true;
-            this.BtnConsultar.Click += new System.EventHandler(this.BtnConsultar_Click);
             // 
             // label1
             // 
@@ -75,8 +53,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(300, 196);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.BtnConsultar);
-            this.Controls.Add(this.BtnAgregar);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Trabajos";
@@ -91,8 +67,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button BtnAgregar;
-        private System.Windows.Forms.Button BtnConsultar;
         private System.Windows.Forms.Label label1;
     }
 }

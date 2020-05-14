@@ -19,33 +19,7 @@ namespace Tecnocom_Wolf
         }
 
         public string b = "";
-
-        private void BtnRegistrar_Click(object sender, EventArgs e)
-        {
-   
-            this.Dispose();
-            RegistrarClientes RC = new RegistrarClientes();
-            RC.Show();
-            b = "no";
-        }
-
-        private void BtnConsultar_Click(object sender, EventArgs e)
-        {
-            
-            this.Dispose();
-            ConsultarClientes CC = new ConsultarClientes();
-            CC.Show();
-            b = "no";
-
-        }
-
-        private void BtnModificar_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-            ModificarClientes MC = new ModificarClientes();
-            MC.Show();
-            b = "no";
-        }
+        
 
         //Eventos
 

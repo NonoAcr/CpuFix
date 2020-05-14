@@ -29,43 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Clientes));
-            this.BtnRegistrar = new System.Windows.Forms.Button();
-            this.BtnModificar = new System.Windows.Forms.Button();
-            this.BtnConsultar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // BtnRegistrar
-            // 
-            this.BtnRegistrar.ForeColor = System.Drawing.Color.Black;
-            this.BtnRegistrar.Location = new System.Drawing.Point(75, 225);
-            this.BtnRegistrar.Name = "BtnRegistrar";
-            this.BtnRegistrar.Size = new System.Drawing.Size(75, 23);
-            this.BtnRegistrar.TabIndex = 0;
-            this.BtnRegistrar.Text = "Registrar";
-            this.BtnRegistrar.UseVisualStyleBackColor = true;
-            this.BtnRegistrar.Click += new System.EventHandler(this.BtnRegistrar_Click);
-            // 
-            // BtnModificar
-            // 
-            this.BtnModificar.Location = new System.Drawing.Point(178, 225);
-            this.BtnModificar.Name = "BtnModificar";
-            this.BtnModificar.Size = new System.Drawing.Size(75, 23);
-            this.BtnModificar.TabIndex = 1;
-            this.BtnModificar.Text = "Modificar";
-            this.BtnModificar.UseVisualStyleBackColor = true;
-            this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
-            // 
-            // BtnConsultar
-            // 
-            this.BtnConsultar.Location = new System.Drawing.Point(287, 225);
-            this.BtnConsultar.Name = "BtnConsultar";
-            this.BtnConsultar.Size = new System.Drawing.Size(75, 23);
-            this.BtnConsultar.TabIndex = 2;
-            this.BtnConsultar.Text = "Consultar";
-            this.BtnConsultar.UseVisualStyleBackColor = true;
-            this.BtnConsultar.Click += new System.EventHandler(this.BtnConsultar_Click);
             // 
             // label1
             // 
@@ -98,9 +64,6 @@
             this.ClientSize = new System.Drawing.Size(438, 313);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.BtnConsultar);
-            this.Controls.Add(this.BtnModificar);
-            this.Controls.Add(this.BtnRegistrar);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Clientes";
@@ -114,10 +77,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button BtnRegistrar;
-        private System.Windows.Forms.Button BtnModificar;
-        private System.Windows.Forms.Button BtnConsultar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnVolver;
     }

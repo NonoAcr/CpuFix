@@ -20,20 +20,11 @@ namespace Tecnocom_Wolf
 
         public string b = "";
 
-        private void BtnAgregar_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-            Registro R = new Registro();
-            R.Show();
-            b = "no";
-        }
+
 
         private void BtnConsultar_Click(object sender, EventArgs e)
         {
-            this.Dispose();
-            ConsultarTareas CT = new ConsultarTareas();
-            CT.Show();
-            b = "no";
+            
         }
 
         private void BtnModificar_Click(object sender, EventArgs e)

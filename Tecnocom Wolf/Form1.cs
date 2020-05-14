@@ -20,31 +20,10 @@ namespace Tecnocom_Wolf
 
         public bool validacion = false;
         public string c = "si";
+        public string b = "";
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Registro RGTO = new Registro();
-            this.Hide();
-            RGTO.ShowDialog();
-            this.Show();
-        }
-        private void BtnClientes_Click(object sender, EventArgs e)
-        {
-            Clientes C = new Clientes();
-            C.ShowDialog();
-            c = "no";
-            this.Close();
-        }
 
-        private void BtnEmpleado_Click(object sender, EventArgs e)
-        {
-            Trabajadores T = new Trabajadores();
-            T.Show();
-            c = "no";
-            this.Close();
-        }
-
-        // Eventos
+        # region Eventos
 
         private void Bienvenido_Load(object sender, EventArgs e)
         {
@@ -66,14 +45,9 @@ namespace Tecnocom_Wolf
                 }
             }
         }
+        #endregion
 
-        private void BtnTareas_Click(object sender, EventArgs e)
-        {
-            Trabajos Trabajos = new Trabajos();
-            Trabajos.Show();
-            c = "no";
-            this.Close();
-        }
+        #region Empleados
 
         private void Button1_Click(object sender, EventArgs e)
         {
@@ -81,5 +55,80 @@ namespace Tecnocom_Wolf
             log.Show();
             this.Close();
         }
+
+        private void Reg_empleado_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            RegistrarEmpleado RE = new RegistrarEmpleado();
+            RE.Show();
+            b = "no";
+        }
+
+        private void Cons_empleado_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            DgvConsultarEmpleados CE = new DgvConsultarEmpleados();
+            CE.Show();
+            b = "no";
+        }
+
+        private void Mod_empleado_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            ModificarEmpleado ME = new ModificarEmpleado();
+            ME.Show();
+            b = "no";
+        }
+
+
+        #endregion
+
+        #region Cliente
+
+        private void Reg_cliente_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            RegistrarClientes RC = new RegistrarClientes();
+            RC.Show();
+            b = "no";
+        }
+
+        private void Mod_cliente_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            ModificarClientes MC = new ModificarClientes();
+            MC.Show();
+            b = "no";
+        }
+
+        private void Cons_cliente_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            ConsultarClientes CC = new ConsultarClientes();
+            CC.Show();
+            b = "no";
+        }
+
+        #endregion
+
+        #region Tareas
+
+        private void Add_tarea_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            Registro R = new Registro();
+            R.Show();
+            b = "no";
+        }
+
+        private void Cons_tarea_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            ConsultarTareas CT = new ConsultarTareas();
+            CT.Show();
+            b = "no";
+        }
+
+        #endregion
     }
 }

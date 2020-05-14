@@ -20,22 +20,8 @@ namespace Tecnocom_Wolf
 
         public bool validacion = false;
         public string c = "si";
+        public string b = "";
 
-        private void BtnClientes_Click(object sender, EventArgs e)
-        {
-            Clientes C = new Clientes();
-            //C.Owner = this;
-            C.Show();
-            this.Close();
-        }
-
-        private void BtnTareas_Click(object sender, EventArgs e)
-        {
-            Trabajos Trabajos = new Trabajos();
-            Trabajos.Show();
-            c = "no";
-            this.Close();
-        }
 
         private void Button1_Click(object sender, EventArgs e)
         {
@@ -43,5 +29,51 @@ namespace Tecnocom_Wolf
             log.Show();
             this.Close();
         }
+
+        #region Clientes
+        private void Reg_clientes_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            RegistrarClientes RC = new RegistrarClientes();
+            RC.Show();
+            b = "no";
+        }
+
+        private void Mod_clientes_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            ModificarClientes MC = new ModificarClientes();
+            MC.Show();
+            b = "no";
+        }
+
+        private void Cons_clientes_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            ConsultarClientes CC = new ConsultarClientes();
+            CC.Show();
+            b = "no";
+        }
+
+        #endregion
+
+        #region Tareas
+        private void Add_tareas_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            Registro R = new Registro();
+            R.Show();
+            b = "no";
+        }
+
+        private void Cons_tareas_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            ConsultarTareas CT = new ConsultarTareas();
+            CT.Show();
+            b = "no";
+        }
+
+        #endregion
     }
 }

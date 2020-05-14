@@ -29,36 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Estandar));
-            this.BtnTareas = new System.Windows.Forms.Button();
-            this.BtnClientes = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Reg_clientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.Mod_clientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.Cons_clientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.tareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Add_tareas = new System.Windows.Forms.ToolStripMenuItem();
+            this.Cons_tareas = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // BtnTareas
-            // 
-            this.BtnTareas.BackColor = System.Drawing.Color.Black;
-            this.BtnTareas.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnTareas.ForeColor = System.Drawing.Color.White;
-            this.BtnTareas.Location = new System.Drawing.Point(189, 186);
-            this.BtnTareas.Name = "BtnTareas";
-            this.BtnTareas.Size = new System.Drawing.Size(75, 23);
-            this.BtnTareas.TabIndex = 11;
-            this.BtnTareas.Text = "Tareas";
-            this.BtnTareas.UseVisualStyleBackColor = false;
-            this.BtnTareas.Click += new System.EventHandler(this.BtnTareas_Click);
-            // 
-            // BtnClientes
-            // 
-            this.BtnClientes.BackColor = System.Drawing.Color.Black;
-            this.BtnClientes.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnClientes.ForeColor = System.Drawing.Color.White;
-            this.BtnClientes.Location = new System.Drawing.Point(77, 186);
-            this.BtnClientes.Name = "BtnClientes";
-            this.BtnClientes.Size = new System.Drawing.Size(75, 23);
-            this.BtnClientes.TabIndex = 10;
-            this.BtnClientes.Text = "Clientes";
-            this.BtnClientes.UseVisualStyleBackColor = false;
-            this.BtnClientes.Click += new System.EventHandler(this.BtnClientes_Click);
             // 
             // button1
             // 
@@ -73,6 +54,71 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clientesToolStripMenuItem,
+            this.tareasToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(346, 24);
+            this.menuStrip1.TabIndex = 13;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Reg_clientes,
+            this.Mod_clientes,
+            this.Cons_clientes});
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.clientesToolStripMenuItem.Text = "Clientes";
+            // 
+            // Reg_clientes
+            // 
+            this.Reg_clientes.Name = "Reg_clientes";
+            this.Reg_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Reg_clientes.Text = "Registrar";
+            this.Reg_clientes.Click += new System.EventHandler(this.Reg_clientes_Click);
+            // 
+            // Mod_clientes
+            // 
+            this.Mod_clientes.Name = "Mod_clientes";
+            this.Mod_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Mod_clientes.Text = "Modificar";
+            this.Mod_clientes.Click += new System.EventHandler(this.Mod_clientes_Click);
+            // 
+            // Cons_clientes
+            // 
+            this.Cons_clientes.Name = "Cons_clientes";
+            this.Cons_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Cons_clientes.Text = "Consultar";
+            this.Cons_clientes.Click += new System.EventHandler(this.Cons_clientes_Click);
+            // 
+            // tareasToolStripMenuItem
+            // 
+            this.tareasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Add_tareas,
+            this.Cons_tareas});
+            this.tareasToolStripMenuItem.Name = "tareasToolStripMenuItem";
+            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.tareasToolStripMenuItem.Text = "Tareas";
+            // 
+            // Add_tareas
+            // 
+            this.Add_tareas.Name = "Add_tareas";
+            this.Add_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Add_tareas.Text = "Agregar";
+            this.Add_tareas.Click += new System.EventHandler(this.Add_tareas_Click);
+            // 
+            // Cons_tareas
+            // 
+            this.Cons_tareas.Name = "Cons_tareas";
+            this.Cons_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Cons_tareas.Text = "Consultar";
+            this.Cons_tareas.Click += new System.EventHandler(this.Cons_tareas_Click);
+            // 
             // Estandar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -81,21 +127,29 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(346, 261);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.BtnTareas);
-            this.Controls.Add(this.BtnClientes);
+            this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Estandar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estandar";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button BtnTareas;
-        private System.Windows.Forms.Button BtnClientes;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tareasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Reg_clientes;
+        private System.Windows.Forms.ToolStripMenuItem Mod_clientes;
+        private System.Windows.Forms.ToolStripMenuItem Cons_clientes;
+        private System.Windows.Forms.ToolStripMenuItem Add_tareas;
+        private System.Windows.Forms.ToolStripMenuItem Cons_tareas;
     }
 }
