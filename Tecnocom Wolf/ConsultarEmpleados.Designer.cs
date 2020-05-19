@@ -42,6 +42,7 @@
             this.ID_Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label1 = new System.Windows.Forms.Label();
+            this.BtnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvConsulta)).BeginInit();
             this.SuspendLayout();
             // 
@@ -178,6 +179,16 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "Consultar Empleados";
             // 
+            // BtnVolver
+            // 
+            this.BtnVolver.Location = new System.Drawing.Point(430, 392);
+            this.BtnVolver.Name = "BtnVolver";
+            this.BtnVolver.Size = new System.Drawing.Size(75, 23);
+            this.BtnVolver.TabIndex = 21;
+            this.BtnVolver.Text = "Volver";
+            this.BtnVolver.UseVisualStyleBackColor = true;
+            this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
+            // 
             // DgvConsultarEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,6 +196,7 @@
             this.BackgroundImage = global::Tecnocom_Wolf.Properties.Resources.fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(506, 422);
+            this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.RbClave);
             this.Controls.Add(this.RbNombre);
@@ -221,5 +233,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TipoE;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Usuario;
         private System.Windows.Forms.DataGridViewButtonColumn Eliminar;
+        private System.Windows.Forms.Button BtnVolver;
     }
 }

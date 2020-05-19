@@ -61,7 +61,7 @@ namespace Tecnocom_Wolf
             this.Dispose();
             RegistrarEmpleado RE = new RegistrarEmpleado();
             RE.Show();
-            b = "no";
+            b = "si";
         }
 
         private void Cons_empleado_Click(object sender, EventArgs e)
@@ -69,7 +69,7 @@ namespace Tecnocom_Wolf
             this.Dispose();
             DgvConsultarEmpleados CE = new DgvConsultarEmpleados();
             CE.Show();
-            b = "no";
+            b = "si";
         }
 
         private void Mod_empleado_Click(object sender, EventArgs e)
@@ -77,7 +77,7 @@ namespace Tecnocom_Wolf
             this.Dispose();
             ModificarEmpleado ME = new ModificarEmpleado();
             ME.Show();
-            b = "no";
+            b = "si";
         }
 
 
@@ -90,7 +90,7 @@ namespace Tecnocom_Wolf
             this.Dispose();
             RegistrarClientes RC = new RegistrarClientes();
             RC.Show();
-            b = "no";
+            b = "si";
         }
 
         private void Mod_cliente_Click(object sender, EventArgs e)
@@ -98,7 +98,7 @@ namespace Tecnocom_Wolf
             this.Dispose();
             ModificarClientes MC = new ModificarClientes();
             MC.Show();
-            b = "no";
+            b = "si";
         }
 
         private void Cons_cliente_Click(object sender, EventArgs e)
@@ -106,7 +106,7 @@ namespace Tecnocom_Wolf
             this.Dispose();
             ConsultarClientes CC = new ConsultarClientes();
             CC.Show();
-            b = "no";
+            b = "si";
         }
 
         #endregion
@@ -118,7 +118,7 @@ namespace Tecnocom_Wolf
             this.Dispose();
             Registro R = new Registro();
             R.Show();
-            b = "no";
+            b = "si";
         }
 
         private void Cons_tarea_Click(object sender, EventArgs e)
@@ -126,9 +126,14 @@ namespace Tecnocom_Wolf
             this.Dispose();
             ConsultarTareas CT = new ConsultarTareas();
             CT.Show();
-            b = "no";
+            b = "si";
         }
 
         #endregion
+
+        private void EmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

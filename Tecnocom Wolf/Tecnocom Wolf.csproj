@@ -45,12 +45,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDeDatos.cs" />
-    <Compile Include="Clientes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Clientes.Designer.cs">
-      <DependentUpon>Clientes.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConsultarClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,22 +116,7 @@
     </Compile>
     <Compile Include="Registros.cs" />
     <Compile Include="TipoUsuario.cs" />
-    <Compile Include="Trabajadores.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Trabajadores.Designer.cs">
-      <DependentUpon>Trabajadores.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Trabajos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Trabajos.Designer.cs">
-      <DependentUpon>Trabajos.cs</DependentUpon>
-    </Compile>
     <Compile Include="Validaciones.cs" />
-    <EmbeddedResource Include="Clientes.resx">
-      <DependentUpon>Clientes.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarClientes.resx">
       <DependentUpon>ConsultarClientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,12 +159,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Trabajadores.resx">
-      <DependentUpon>Trabajadores.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Trabajos.resx">
-      <DependentUpon>Trabajos.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

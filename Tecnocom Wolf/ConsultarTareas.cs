@@ -17,6 +17,7 @@ namespace Tecnocom_Wolf
             InitializeComponent();
             this.KeyPreview = true;
         }
+        public string b = "";
 
         Consultas Consultas = new Consultas();
        
@@ -49,10 +50,14 @@ namespace Tecnocom_Wolf
 
         private void ConsultarTareas_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Trabajos Trabajos = new Trabajos();
-            Trabajos.Show();
-
-           
+            if (b == "si")
+            {
+                this.Visible = true;
+                if (this.Owner != null)
+                {
+                    this.Owner.Show();
+                }
+            }
         }
 
         private void DgvConsulta_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -103,6 +108,24 @@ namespace Tecnocom_Wolf
             else
             {
                 e.Handled = true;
+            }
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            if (tipoUsuario.tipoUs == "ADMINISTRADOR")
+            {
+                Bienvenido Prin = new Bienvenido();
+                Prin.Show();
+                this.Close();
+                /*this.Visible = true;
+                this.Owner.Show();*/
+            }
+            else
+            {
+                Estandar Est = new Estandar();
+                Est.Show();
+                this.Close();
             }
         }
     }

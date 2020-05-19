@@ -19,6 +19,8 @@ namespace Tecnocom_Wolf
             RbNombre.Checked = true;
             this.KeyPreview = true;
         }
+
+        public string b = "";
         string cadena = "", Operacion = "";
         string Aux = "";
         Consultas Consultas = new Consultas();
@@ -181,8 +183,14 @@ namespace Tecnocom_Wolf
 
         private void ModificarClientes_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Clientes C = new Clientes();
-            C.Show();
+            if (b == "si")
+            {
+                this.Visible = true;
+                if (this.Owner != null)
+                {
+                    this.Owner.Show();
+                }
+            }
         }
 
         private void CbxNombreM_SelectedIndexChanged(object sender, EventArgs e)
@@ -284,6 +292,24 @@ namespace Tecnocom_Wolf
         private void ModificarClientes_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            if (tipoUsuario.tipoUs == "ADMINISTRADOR")
+            {
+                Bienvenido Prin = new Bienvenido();
+                Prin.Show();
+                this.Close();
+                /*this.Visible = true;
+                this.Owner.Show();*/
+            }
+            else
+            {
+                Estandar Est = new Estandar();
+                Est.Show();
+                this.Close();
+            }
         }
 
         private void CbxClaveM_TextChanged(object sender, EventArgs e)

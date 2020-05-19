@@ -18,7 +18,7 @@ namespace Tecnocom_Wolf
             this.KeyPreview = true;
         }
         Validaciones Validacion = new Validaciones();
-
+        public string b = "";
         private void BtnRegistrar_Click(object sender, EventArgs e)
         {
             Validacion.RegistrarTrabajos(TxtNombreC,TxtNumeroC, TxtCEmpleado, TxtCTarea, CbxTipoReparacion, CbxSOI, CbxSO, CbxTipoPC, 
@@ -28,8 +28,14 @@ namespace Tecnocom_Wolf
 
         private void Registro_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Trabajos Trabajos = new Trabajos();
-            Trabajos.Show(); 
+            if (b == "si")
+            {
+                this.Visible = true;
+                if (this.Owner != null)
+                {
+                    this.Owner.Show();
+                }
+            }
         }
 
         private void Registro_KeyDown(object sender, KeyEventArgs e)
@@ -107,6 +113,24 @@ namespace Tecnocom_Wolf
             else
             {
                 e.Handled = true;
+            }
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            if (tipoUsuario.tipoUs == "ADMINISTRADOR")
+            {
+                Bienvenido Prin = new Bienvenido();
+                Prin.Show();
+                this.Close();
+                /*this.Visible = true;
+                this.Owner.Show();*/
+            }
+            else
+            {
+                Estandar Est = new Estandar();
+                Est.Show();
+                this.Close();
             }
         }
     }

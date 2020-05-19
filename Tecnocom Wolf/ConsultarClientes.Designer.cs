@@ -44,6 +44,7 @@
             this.CorreoCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LbClaveE = new System.Windows.Forms.Label();
             this.LbNombre = new System.Windows.Forms.Label();
+            this.BtnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvClientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -197,13 +198,24 @@
             this.LbNombre.TabIndex = 36;
             this.LbNombre.Text = "Nombre:";
             // 
+            // BtnVolver
+            // 
+            this.BtnVolver.Location = new System.Drawing.Point(517, 413);
+            this.BtnVolver.Name = "BtnVolver";
+            this.BtnVolver.Size = new System.Drawing.Size(75, 23);
+            this.BtnVolver.TabIndex = 38;
+            this.BtnVolver.Text = "Volver";
+            this.BtnVolver.UseVisualStyleBackColor = true;
+            this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
+            // 
             // ConsultarClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Tecnocom_Wolf.Properties.Resources.fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(598, 423);
+            this.ClientSize = new System.Drawing.Size(598, 436);
+            this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.LbClaveE);
             this.Controls.Add(this.LbNombre);
             this.Controls.Add(this.DgvClientes);
@@ -244,5 +256,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn CorreoCliente;
         private System.Windows.Forms.Label LbClaveE;
         private System.Windows.Forms.Label LbNombre;
+        private System.Windows.Forms.Button BtnVolver;
     }
 }

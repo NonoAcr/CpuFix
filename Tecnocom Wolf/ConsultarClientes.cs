@@ -19,7 +19,8 @@ namespace Tecnocom_Wolf
             RbNombre.Checked = true ;
             this.KeyPreview = true;
         }
-       
+
+        public string b = "";
         string cadena = "";
         string Aux = "";
 
@@ -49,9 +50,14 @@ namespace Tecnocom_Wolf
 
         private void ConsultarClientes_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Clientes C = new Clientes();
-            C.Show();
-          //  C.b = "si";
+            if (b == "si")
+            {
+                this.Visible = true;
+                if (this.Owner != null)
+                {
+                    this.Owner.Show();
+                }
+            }
         }
 
         public void Consultar()
@@ -143,6 +149,24 @@ namespace Tecnocom_Wolf
         private void Label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            if (tipoUsuario.tipoUs == "ADMINISTRADOR")
+            {
+                Bienvenido Prin = new Bienvenido();
+                Prin.Show();
+                this.Close();
+                /*this.Visible = true;
+                this.Owner.Show();*/
+            }
+            else
+            {
+                Estandar Est = new Estandar();
+                Est.Show();
+                this.Close();
+            }
         }
     }
 }

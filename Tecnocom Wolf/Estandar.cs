@@ -41,7 +41,6 @@ namespace Tecnocom_Wolf
 
         private void Mod_clientes_Click(object sender, EventArgs e)
         {
-            this.Dispose();
             ModificarClientes MC = new ModificarClientes();
             MC.Show();
             b = "no";

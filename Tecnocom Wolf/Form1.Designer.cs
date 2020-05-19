@@ -79,6 +79,7 @@
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
             this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.empleadosToolStripMenuItem.Text = "Empleados";
+            this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.EmpleadosToolStripMenuItem_Click);
             // 
             // Reg_empleado
             // 
@@ -114,21 +115,21 @@
             // Reg_cliente
             // 
             this.Reg_cliente.Name = "Reg_cliente";
-            this.Reg_cliente.Size = new System.Drawing.Size(180, 22);
+            this.Reg_cliente.Size = new System.Drawing.Size(125, 22);
             this.Reg_cliente.Text = "Registrar";
             this.Reg_cliente.Click += new System.EventHandler(this.Reg_cliente_Click);
             // 
             // Mod_cliente
             // 
             this.Mod_cliente.Name = "Mod_cliente";
-            this.Mod_cliente.Size = new System.Drawing.Size(180, 22);
+            this.Mod_cliente.Size = new System.Drawing.Size(125, 22);
             this.Mod_cliente.Text = "Modificar";
             this.Mod_cliente.Click += new System.EventHandler(this.Mod_cliente_Click);
             // 
             // Cons_cliente
             // 
             this.Cons_cliente.Name = "Cons_cliente";
-            this.Cons_cliente.Size = new System.Drawing.Size(180, 22);
+            this.Cons_cliente.Size = new System.Drawing.Size(125, 22);
             this.Cons_cliente.Text = "Consultar";
             this.Cons_cliente.Click += new System.EventHandler(this.Cons_cliente_Click);
             // 
@@ -144,14 +145,14 @@
             // Add_tarea
             // 
             this.Add_tarea.Name = "Add_tarea";
-            this.Add_tarea.Size = new System.Drawing.Size(180, 22);
+            this.Add_tarea.Size = new System.Drawing.Size(125, 22);
             this.Add_tarea.Text = "Agregar";
             this.Add_tarea.Click += new System.EventHandler(this.Add_tarea_Click);
             // 
             // Cons_tarea
             // 
             this.Cons_tarea.Name = "Cons_tarea";
-            this.Cons_tarea.Size = new System.Drawing.Size(180, 22);
+            this.Cons_tarea.Size = new System.Drawing.Size(125, 22);
             this.Cons_tarea.Text = "Consultar";
             this.Cons_tarea.Click += new System.EventHandler(this.Cons_tarea_Click);
             // 
@@ -170,7 +171,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Bienvenido";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CPUFIX";
+            this.Text = "Administrador";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Bienvenido_FormClosing);
             this.Load += new System.EventHandler(this.Bienvenido_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Bienvenido_KeyDown);

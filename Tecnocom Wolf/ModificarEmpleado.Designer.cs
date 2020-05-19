@@ -54,6 +54,7 @@
             this.lblSegura = new System.Windows.Forms.Label();
             this.lblMedia = new System.Windows.Forms.Label();
             this.lblBaja = new System.Windows.Forms.Label();
+            this.BtnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -338,6 +339,17 @@
             this.lblBaja.Text = "Esta contraseña es debil";
             this.lblBaja.Visible = false;
             // 
+            // BtnVolver
+            // 
+            this.BtnVolver.ForeColor = System.Drawing.Color.Black;
+            this.BtnVolver.Location = new System.Drawing.Point(372, 462);
+            this.BtnVolver.Name = "BtnVolver";
+            this.BtnVolver.Size = new System.Drawing.Size(75, 23);
+            this.BtnVolver.TabIndex = 53;
+            this.BtnVolver.Text = "Volver";
+            this.BtnVolver.UseVisualStyleBackColor = true;
+            this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
+            // 
             // ModificarEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -345,6 +357,7 @@
             this.BackgroundImage = global::Tecnocom_Wolf.Properties.Resources.fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(448, 487);
+            this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.lblSegura);
             this.Controls.Add(this.lblMedia);
             this.Controls.Add(this.lblBaja);
@@ -414,5 +427,6 @@
         private System.Windows.Forms.Label lblSegura;
         private System.Windows.Forms.Label lblMedia;
         private System.Windows.Forms.Label lblBaja;
+        private System.Windows.Forms.Button BtnVolver;
     }
 }

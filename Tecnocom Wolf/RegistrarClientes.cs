@@ -20,6 +20,7 @@ namespace Tecnocom_Wolf
             this.KeyPreview = true;
         }
 
+        public string b = "";
         string Clave = "", Operacion = "";
         Consultas Consultas = new Consultas();
         Registros Registros = new Registros();
@@ -65,8 +66,14 @@ namespace Tecnocom_Wolf
 
         private void RegistrarClientes_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Clientes C = new Clientes();
-            C.Show();
+            if (b == "si")
+            {
+                this.Visible = true;
+                if (this.Owner != null)
+                {
+                    this.Owner.Show();
+                }
+            }
         }
 
         private void TxtNombre_KeyPress(object sender, KeyPressEventArgs e)
@@ -144,9 +151,20 @@ namespace Tecnocom_Wolf
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            Estandar E = new Estandar();
-            E.Show();
-            this.Close();
+            if (tipoUsuario.tipoUs == "ADMINISTRADOR")
+            {
+                Bienvenido Prin = new Bienvenido();
+                Prin.Show();
+                this.Close();
+                /*this.Visible = true;
+                this.Owner.Show();*/
+            }
+            else
+            {
+                Estandar Est = new Estandar();
+                Est.Show();
+                this.Close();
+            }
         }
 
         private Boolean email_bien_escrito(string email)
