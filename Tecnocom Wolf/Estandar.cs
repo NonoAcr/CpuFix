@@ -23,13 +23,6 @@ namespace Tecnocom_Wolf
         public string b = "";
 
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            Login log = new Login();
-            log.Show();
-            this.Close();
-        }
-
         #region Clientes
         private void Reg_clientes_Click(object sender, EventArgs e)
         {
@@ -74,5 +67,14 @@ namespace Tecnocom_Wolf
         }
 
         #endregion
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            this.Dispose();
+            Login log = new Login();
+            log.Show();
+            this.Close();
+        }
     }
 }

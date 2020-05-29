@@ -49,12 +49,6 @@ namespace Tecnocom_Wolf
 
         #region Empleados
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            Login log = new Login();
-            log.Show();
-            this.Close();
-        }
 
         private void Reg_empleado_Click(object sender, EventArgs e)
         {
@@ -142,6 +136,14 @@ namespace Tecnocom_Wolf
             Backup_BD bck = new Backup_BD();
             bck.Show();
             b = "si";
+        }
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            Login log = new Login();
+            log.Show();
+            this.Close();
         }
     }
 }

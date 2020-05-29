@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Estandar));
-            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Reg_clientes = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,27 +37,16 @@
             this.tareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Add_tareas = new System.Windows.Forms.ToolStripMenuItem();
             this.Cons_tareas = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(119, 236);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 24);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Cerrar Sesión";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clientesToolStripMenuItem,
-            this.tareasToolStripMenuItem});
+            this.tareasToolStripMenuItem,
+            this.cerrarSesionToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(346, 24);
@@ -78,21 +66,21 @@
             // Reg_clientes
             // 
             this.Reg_clientes.Name = "Reg_clientes";
-            this.Reg_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Reg_clientes.Size = new System.Drawing.Size(125, 22);
             this.Reg_clientes.Text = "Registrar";
             this.Reg_clientes.Click += new System.EventHandler(this.Reg_clientes_Click);
             // 
             // Mod_clientes
             // 
             this.Mod_clientes.Name = "Mod_clientes";
-            this.Mod_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Mod_clientes.Size = new System.Drawing.Size(125, 22);
             this.Mod_clientes.Text = "Modificar";
             this.Mod_clientes.Click += new System.EventHandler(this.Mod_clientes_Click);
             // 
             // Cons_clientes
             // 
             this.Cons_clientes.Name = "Cons_clientes";
-            this.Cons_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Cons_clientes.Size = new System.Drawing.Size(125, 22);
             this.Cons_clientes.Text = "Consultar";
             this.Cons_clientes.Click += new System.EventHandler(this.Cons_clientes_Click);
             // 
@@ -108,16 +96,23 @@
             // Add_tareas
             // 
             this.Add_tareas.Name = "Add_tareas";
-            this.Add_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Add_tareas.Size = new System.Drawing.Size(125, 22);
             this.Add_tareas.Text = "Agregar";
             this.Add_tareas.Click += new System.EventHandler(this.Add_tareas_Click);
             // 
             // Cons_tareas
             // 
             this.Cons_tareas.Name = "Cons_tareas";
-            this.Cons_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Cons_tareas.Size = new System.Drawing.Size(125, 22);
             this.Cons_tareas.Text = "Consultar";
             this.Cons_tareas.Click += new System.EventHandler(this.Cons_tareas_Click);
+            // 
+            // cerrarSesionToolStripMenuItem
+            // 
+            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
+            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.cerrarSesionToolStripMenuItem.Text = "Cerrar sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // Estandar
             // 
@@ -126,7 +121,6 @@
             this.BackgroundImage = global::Tecnocom_Wolf.Properties.Resources.fondoprincipal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(346, 261);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -142,7 +136,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tareasToolStripMenuItem;
@@ -151,5 +144,6 @@
         private System.Windows.Forms.ToolStripMenuItem Cons_clientes;
         private System.Windows.Forms.ToolStripMenuItem Add_tareas;
         private System.Windows.Forms.ToolStripMenuItem Cons_tareas;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
     }
 }
