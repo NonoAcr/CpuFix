@@ -33,7 +33,7 @@ namespace Tecnocom_Wolf
             correoIngresado = TxtCorreo.Text;
             if(email_bien_escrito(correoIngresado) == true)
             {
-                MessageBox.Show("Correo Valido");
+                
                 Validacion.ValidarRegistrarClientes(TxtNombre, TxtIdClave, TxtDireccion, TxtCorreo, TxtTelefono, pictureBox1, pictureBox2,
                 pictureBox3, pictureBox4, pictureBox5);
             }

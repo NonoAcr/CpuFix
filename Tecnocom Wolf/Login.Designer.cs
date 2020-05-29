@@ -69,6 +69,7 @@
             this.TxtContraseña.PasswordChar = '*';
             this.TxtContraseña.Size = new System.Drawing.Size(145, 20);
             this.TxtContraseña.TabIndex = 2;
+            this.TxtContraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtContraseña_KeyPress);
             // 
             // TxtUsuario
             // 

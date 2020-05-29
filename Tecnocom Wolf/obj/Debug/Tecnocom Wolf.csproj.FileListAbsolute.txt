@@ -271,3 +271,24 @@ C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom Wolf
 C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.CoreCompileInputs.cache
 C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
 C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe.config
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.exe
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\bin\Debug\Tecnocom Wolf.pdb
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csprojAssemblyReference.cache
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientes.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.DgvConsultarEmpleados.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareas.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Estandar.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Bienvenido.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Login.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientes.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarEmpleado.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Properties.Resources.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientes.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarEmpleado.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Registro.resources
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.GenerateResource.cache
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.CoreCompileInputs.cache
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Backup_BD.resources

@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Backup_BD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Backup_BD.Designer.cs">
+      <DependentUpon>Backup_BD.cs</DependentUpon>
+    </Compile>
     <Compile Include="BaseDeDatos.cs" />
     <Compile Include="ConsultarClientes.cs">
       <SubType>Form</SubType>
@@ -117,6 +123,9 @@
     <Compile Include="Registros.cs" />
     <Compile Include="TipoUsuario.cs" />
     <Compile Include="Validaciones.cs" />
+    <EmbeddedResource Include="Backup_BD.resx">
+      <DependentUpon>Backup_BD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarClientes.resx">
       <DependentUpon>ConsultarClientes.cs</DependentUpon>
     </EmbeddedResource>

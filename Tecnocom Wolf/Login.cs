@@ -23,7 +23,7 @@ namespace Tecnocom_Wolf
         // Declaracion De Variables Gloables 
 
         //SqlConnection conexion = new SqlConnection("server = localhost; Initial Catalog = cpu_fix; integrated security = true");
-        SqlConnection conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
         string cadena = "";
         Consultas Consultas = new Consultas();
         string User = "", Pass = "", Tipo = "";
@@ -113,6 +113,76 @@ namespace Tecnocom_Wolf
                 TxtContraseña.Text = "";
                 TxtUsuario.Focus();
 
+            }
+        }
+
+        private void TxtContraseña_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                bool bande = true;
+                pictureBox1.Hide();
+                pictureBox2.Hide();
+
+                if (TxtUsuario.Text == "")
+                {
+                    pictureBox1.Show();
+                    bande = false;
+                }
+
+                if (TxtContraseña.Text == "")
+                {
+                    pictureBox2.Show();
+                    bande = false;
+                }
+                if (bande == true)
+                {
+                    conexion.Open();
+                    cadena = "SELECT * FROM EMPLEADOS WHERE ID_USUARIO = '" + TxtUsuario.Text + "'";
+                    SqlDataReader sqldr;
+                    SqlCommand comando = new SqlCommand(cadena, conexion);
+                    sqldr = comando.ExecuteReader();
+                    while (sqldr.Read())
+                    {
+                        User = sqldr["ID_USUARIO"].ToString();
+                        Pass = sqldr["CONTRASEÑA"].ToString();
+                        Tipo = sqldr["TIPO_USUARIO"].ToString();
+                    }
+
+                    conexion.Close();
+
+                    if (TxtUsuario.Text == User && TxtContraseña.Text == Pass)
+                    {
+                        //Patron de diseño GRASP
+                        if (Tipo == "ADMINISTRADOR")
+                        {
+                            tipoUsuario.tipoUs = "ADMINISTRADOR";
+                            this.Hide();
+                            Bienvenido B = new Bienvenido();
+                            B.ShowDialog();
+
+                        }
+                        else if (Tipo == "ESTANDAR")
+                        {
+                            tipoUsuario.tipoUs = "ESTANDAR";
+                            this.Hide();
+                            Estandar E = new Estandar();
+                            E.ShowDialog();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario O Contraseña Incorrectos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        TxtUsuario.Text = "";
+                        TxtContraseña.Text = "";
+                        TxtUsuario.Focus();
+                        MessageBox.Show("Los campos señalados son obligatorios. Favor de llenarlos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Los campos señalados son obligatorios. Favor de llenarlos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
         }
 

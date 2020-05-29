@@ -42,6 +42,7 @@
             this.tareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Add_tarea = new System.Windows.Forms.ToolStripMenuItem();
             this.Cons_tarea = new System.Windows.Forms.ToolStripMenuItem();
+            this.respaldoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,7 +64,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.empleadosToolStripMenuItem,
             this.clientesToolStripMenuItem,
-            this.tareasToolStripMenuItem});
+            this.tareasToolStripMenuItem,
+            this.respaldoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(437, 24);
@@ -156,6 +158,13 @@
             this.Cons_tarea.Text = "Consultar";
             this.Cons_tarea.Click += new System.EventHandler(this.Cons_tarea_Click);
             // 
+            // respaldoToolStripMenuItem
+            // 
+            this.respaldoToolStripMenuItem.Name = "respaldoToolStripMenuItem";
+            this.respaldoToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.respaldoToolStripMenuItem.Text = "Respaldo";
+            this.respaldoToolStripMenuItem.Click += new System.EventHandler(this.respaldoToolStripMenuItem_Click);
+            // 
             // Bienvenido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,6 +205,7 @@
         private System.Windows.Forms.ToolStripMenuItem Cons_cliente;
         private System.Windows.Forms.ToolStripMenuItem Add_tarea;
         private System.Windows.Forms.ToolStripMenuItem Cons_tarea;
+        private System.Windows.Forms.ToolStripMenuItem respaldoToolStripMenuItem;
     }
 }
 

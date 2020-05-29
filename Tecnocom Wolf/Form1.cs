@@ -135,5 +135,13 @@ namespace Tecnocom_Wolf
         {
 
         }
+
+        private void respaldoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            Backup_BD bck = new Backup_BD();
+            bck.Show();
+            b = "si";
+        }
     }
 }
