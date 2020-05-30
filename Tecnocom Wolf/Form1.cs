@@ -125,10 +125,6 @@ namespace Tecnocom_Wolf
 
         #endregion
 
-        private void EmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void respaldoToolStripMenuItem_Click(object sender, EventArgs e)
         {
