@@ -38,6 +38,8 @@
             this.Add_tareas = new System.Windows.Forms.ToolStripMenuItem();
             this.Cons_tareas = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblBienv = new System.Windows.Forms.Label();
+            this.lblNomUs = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,8 +92,8 @@
             this.Add_tareas,
             this.Cons_tareas});
             this.tareasToolStripMenuItem.Name = "tareasToolStripMenuItem";
-            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
-            this.tareasToolStripMenuItem.Text = "Tareas";
+            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.tareasToolStripMenuItem.Text = "Servicios";
             // 
             // Add_tareas
             // 
@@ -114,6 +116,30 @@
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar sesion";
             this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
+            // lblBienv
+            // 
+            this.lblBienv.AutoSize = true;
+            this.lblBienv.BackColor = System.Drawing.Color.Transparent;
+            this.lblBienv.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienv.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblBienv.Location = new System.Drawing.Point(12, 35);
+            this.lblBienv.Name = "lblBienv";
+            this.lblBienv.Size = new System.Drawing.Size(115, 24);
+            this.lblBienv.TabIndex = 14;
+            this.lblBienv.Text = "Bienvenido";
+            // 
+            // lblNomUs
+            // 
+            this.lblNomUs.AutoSize = true;
+            this.lblNomUs.BackColor = System.Drawing.Color.Transparent;
+            this.lblNomUs.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomUs.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblNomUs.Location = new System.Drawing.Point(133, 35);
+            this.lblNomUs.Name = "lblNomUs";
+            this.lblNomUs.Size = new System.Drawing.Size(77, 24);
+            this.lblNomUs.TabIndex = 15;
+            this.lblNomUs.Text = "Prueba";
+            // 
             // Estandar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,6 +147,8 @@
             this.BackgroundImage = global::Tecnocom_Wolf.Properties.Resources.fondoprincipal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(346, 261);
+            this.Controls.Add(this.lblNomUs);
+            this.Controls.Add(this.lblBienv);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -128,6 +156,7 @@
             this.Name = "Estandar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estandar";
+            this.Load += new System.EventHandler(this.Estandar_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -145,5 +174,7 @@
         private System.Windows.Forms.ToolStripMenuItem Add_tareas;
         private System.Windows.Forms.ToolStripMenuItem Cons_tareas;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.Label lblBienv;
+        private System.Windows.Forms.Label lblNomUs;
     }
 }

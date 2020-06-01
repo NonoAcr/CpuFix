@@ -292,3 +292,4 @@ C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tec
 C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
 C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
 C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Backup_BD.resources
+C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.Backup_BD.resources

@@ -27,6 +27,7 @@ namespace Tecnocom_Wolf
 
         private void Bienvenido_Load(object sender, EventArgs e)
         {
+            lblNomUs.Text = tipoUsuario.NombreUs;
             Login Log = new Login();
             Log.Hide();
         }

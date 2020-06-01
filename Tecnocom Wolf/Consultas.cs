@@ -10,7 +10,7 @@ namespace Tecnocom_Wolf
 {
     class Consultas
     {
-        SqlConnection Conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection Conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
         SqlDataReader sqldr;
                  
          /*Clientes*/
@@ -58,11 +58,65 @@ namespace Tecnocom_Wolf
                 {
                     Clave.Items.Add(sqldr["NUM_CLIENTE"].ToString());
                 }
-
             }
 
             Conexion.Close();
         }
+        public void ConsultasCbxRegisClav(ComboBox Clave, string Cadena, string Aux)
+        {
+            if (Aux == "Clave")
+            {
+                Cadena = "SELECT DISTINCT NUM_CLIENTE FROM CLIENTES";
+            }
+            Conexion.Open();
+            SqlCommand comando = new SqlCommand(Cadena, Conexion);
+            sqldr = comando.ExecuteReader();
+            while (sqldr.Read())
+            {
+                if (Aux == "Clave")
+                {
+                    Clave.Items.Add(sqldr["NUM_CLIENTE"].ToString());
+                }
+            }
+            Conexion.Close();
+        }
+        public void ConsultasCbxRegisNomb(ComboBox Nombre, string Cadena, string Aux)
+        {
+            if (Aux == "Nombre")
+            {
+                Cadena = "SELECT DISTINCT NOMBRE  FROM CLIENTES";
+            }
+            Conexion.Open();
+            SqlCommand comando = new SqlCommand(Cadena, Conexion);
+            sqldr = comando.ExecuteReader();
+            while (sqldr.Read())
+            {
+                if (Aux == "Nombre")
+                {
+                    Nombre.Items.Add(sqldr["NOMBRE"].ToString());
+                }
+            }
+            Conexion.Close();
+        }
+
+        public void ConsultasCbxRegisClavEmpl(ComboBox Clave, string Cadena, string Aux)
+        {
+            if (Aux == "Clave")
+            {
+                Cadena = "SELECT DISTINCT CLAVE_EMPLEADO FROM EMPLEADOS";
+            }
+            Conexion.Open();
+            SqlCommand comando = new SqlCommand(Cadena, Conexion);
+            sqldr = comando.ExecuteReader();
+            while (sqldr.Read())
+            {
+                if (Aux == "Clave")
+                {
+                    Clave.Items.Add(sqldr["CLAVE_EMPLEADO"].ToString());
+                }
+            }
+            Conexion.Close();
+    }
         public void CargarConsulta(TextBox Nombre, TextBox Clave, TextBox Correo, TextBox Direccion, TextBox Telefono, string Cadena)
         {
             /*Este metodo se utiliza para agregar los datos de la consulta a los 
@@ -84,7 +138,48 @@ namespace Tecnocom_Wolf
 
             Conexion.Close();
         }
+        public void CargarConsultaS(TextBox Numero, TextBox Nombre, string Cadena)
+        {
+            /* Metodo para verificar cliente en la interfaz de servicios*/
 
+            Conexion.Open();
+            SqlCommand comando = new SqlCommand(Cadena, Conexion);
+            sqldr = comando.ExecuteReader();
+
+            while (sqldr.Read())
+            {
+                Nombre.Text = sqldr["NOMBRE"].ToString();
+                Numero.Text = sqldr["NUM_CLIENTE"].ToString();
+            }
+            Conexion.Close();
+        }
+        private void CargarConsultaClavEmp(ComboBox Clave, string Cadena)
+        {
+            Conexion.Open();
+            SqlCommand comando = new SqlCommand(Cadena, Conexion);
+            sqldr = comando.ExecuteReader();
+
+            while (sqldr.Read())
+            {
+                Clave.Text = sqldr["CLAVE_EMPLEADO"].ToString();
+            }
+            Conexion.Close();
+        }
+
+        public void CargarConsultaClavEmpl(ComboBox Nombre, string Cadena)
+        {
+            /* Metodo para verificar cliente en la interfaz de servicios*/
+
+            Conexion.Open();
+            SqlCommand comando = new SqlCommand(Cadena, Conexion);
+            sqldr = comando.ExecuteReader();
+
+            while (sqldr.Read())
+            {
+                Nombre.Text = sqldr["NOMBRE"].ToString();
+            }
+            Conexion.Close();
+        }
         public string VerificarClave(TextBox TxtClave)
         {
             /*Este metodo sirve para verificar si la clave ya se encuentra 
@@ -118,9 +213,24 @@ namespace Tecnocom_Wolf
             {
                 Clave = sqldr["CLAVE_EMPLEADO"].ToString();
             }
-
             Conexion.Close();
             return Clave;
+        }
+        public string VerificarIdUser(TextBox TxtIDUsuaro)
+        {
+            string Cadena = "", IdUsuario = "";
+            Cadena = "SELECT *  FROM EMPLEADOS WHERE ID_USUARIO =" + "'" + TxtIDUsuaro.Text + "'";
+            Conexion.Open();
+            SqlDataReader sqldr;
+            SqlCommand comando = new SqlCommand(Cadena, Conexion);
+            sqldr = comando.ExecuteReader();
+            while (sqldr.Read())
+            {
+                IdUsuario = sqldr["ID_USUARIO"].ToString();
+            }
+
+            Conexion.Close();
+            return IdUsuario;
         }
 
         public void ConsultarEmpleados(ComboBox Nombre, ComboBox Clave, string Cadena, string Aux)
@@ -183,7 +293,8 @@ namespace Tecnocom_Wolf
             while (sqldr.Read())
             {
 
-                ConsultasE.Rows.Add(sqldr["NOMBRE"].ToString(), sqldr["CLAVE_EMPLEADO"].ToString(), sqldr["TIPO_USUARIO"].ToString(), (sqldr["ID_USUARIO"].ToString()));
+                ConsultasE.Rows.Add(sqldr["NOMBRE"].ToString(), sqldr["CLAVE_EMPLEADO"].ToString(), sqldr["TIPO_USUARIO"].ToString()
+                , (sqldr["ID_USUARIO"].ToString()));
             }
 
             Conexion.Close();
@@ -201,7 +312,10 @@ namespace Tecnocom_Wolf
             sqldr = comando.ExecuteReader();
             while (sqldr.Read())
             {
-                Datos.Rows.Add(sqldr["CLAVE_TRABAJO"].ToString(), sqldr["NOMBRE"].ToString(), sqldr["CLAVE_EMPLEADO"].ToString(), sqldr["NOMBRE"].ToString(), sqldr["NUM_CLIENTE"].ToString(), sqldr["TIPOPC"].ToString(), sqldr["SISTEMA_OPERATIVO"].ToString(), sqldr["SOFTWARE_INSTALACION"].ToString(), sqldr["DESCRIPCION"].ToString(), sqldr["FECHA"].ToString());
+                Datos.Rows.Add(sqldr["CLAVE_TRABAJO"].ToString(), sqldr["NOMBRE"].ToString(), sqldr["CLAVE_EMPLEADO"].ToString()
+                , sqldr["NOMBRE"].ToString(), sqldr["NUM_CLIENTE"].ToString(), sqldr["TIPOPC"].ToString(), sqldr["SISTEMA_OPERATIVO"].ToString()
+                , sqldr["SOFTWARE_INSTALACION"].ToString(), sqldr["DESCRIPCION"].ToString(), sqldr["FECHA"].ToString()
+                , sqldr["PAGO"].ToString(), sqldr["ESTADO"].ToString(),sqldr["ANTICIPO"].ToString());
             }
 
             Conexion.Close();

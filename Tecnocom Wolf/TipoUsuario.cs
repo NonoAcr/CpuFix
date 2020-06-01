@@ -10,5 +10,6 @@ namespace Tecnocom_Wolf
     {
         /* Patron de Diseño Singlenton */
         public static string tipoUs = "";
+        public static string NombreUs = "";
     }
 }

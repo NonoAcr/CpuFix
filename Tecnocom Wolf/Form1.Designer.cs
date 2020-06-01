@@ -43,6 +43,7 @@
             this.Cons_tarea = new System.Windows.Forms.ToolStripMenuItem();
             this.respaldoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblNomUs = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -128,8 +129,8 @@
             this.Add_tarea,
             this.Cons_tarea});
             this.tareasToolStripMenuItem.Name = "tareasToolStripMenuItem";
-            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
-            this.tareasToolStripMenuItem.Text = "Tareas";
+            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.tareasToolStripMenuItem.Text = "Servicios";
             // 
             // Add_tarea
             // 
@@ -159,6 +160,17 @@
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar sesion";
             this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
+            // lblNomUs
+            // 
+            this.lblNomUs.AutoSize = true;
+            this.lblNomUs.BackColor = System.Drawing.Color.Transparent;
+            this.lblNomUs.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomUs.Location = new System.Drawing.Point(131, 35);
+            this.lblNomUs.Name = "lblNomUs";
+            this.lblNomUs.Size = new System.Drawing.Size(77, 24);
+            this.lblNomUs.TabIndex = 12;
+            this.lblNomUs.Text = "Prueba";
+            // 
             // Bienvenido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -166,6 +178,7 @@
             this.BackgroundImage = global::Tecnocom_Wolf.Properties.Resources.fondo_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(437, 318);
+            this.Controls.Add(this.lblNomUs);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.White;
@@ -199,6 +212,7 @@
         private System.Windows.Forms.ToolStripMenuItem Cons_tarea;
         private System.Windows.Forms.ToolStripMenuItem respaldoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.Label lblNomUs;
     }
 }
 

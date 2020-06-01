@@ -30,6 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultarTareas));
             this.DgvConsulta = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.TxtClaveTarea = new System.Windows.Forms.TextBox();
+            this.BtnLimpiar = new System.Windows.Forms.Button();
+            this.BtnBuscar = new System.Windows.Forms.Button();
+            this.BtnVolver = new System.Windows.Forms.Button();
             this.IDTarea = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NombreE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDEmpleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,14 +46,11 @@
             this.SOI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pago = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Anticipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Borrar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.TxtClaveTarea = new System.Windows.Forms.TextBox();
-            this.BtnLimpiar = new System.Windows.Forms.Button();
-            this.BtnBuscar = new System.Windows.Forms.Button();
-            this.BtnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvConsulta)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,75 +68,17 @@
             this.SOI,
             this.Descripcion,
             this.Fecha,
+            this.Pago,
+            this.Estado,
+            this.Anticipo,
             this.Modificar,
             this.Borrar});
             this.DgvConsulta.Location = new System.Drawing.Point(12, 232);
             this.DgvConsulta.Name = "DgvConsulta";
-            this.DgvConsulta.Size = new System.Drawing.Size(742, 150);
+            this.DgvConsulta.Size = new System.Drawing.Size(923, 150);
             this.DgvConsulta.TabIndex = 4;
             this.DgvConsulta.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvConsulta_CellClick);
             this.DgvConsulta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvConsulta_CellContentClick);
-            // 
-            // IDTarea
-            // 
-            this.IDTarea.HeaderText = "ID Tarea";
-            this.IDTarea.Name = "IDTarea";
-            // 
-            // NombreE
-            // 
-            this.NombreE.HeaderText = "Nombre Empleado";
-            this.NombreE.Name = "NombreE";
-            // 
-            // IDEmpleado
-            // 
-            this.IDEmpleado.HeaderText = "ID Empleado";
-            this.IDEmpleado.Name = "IDEmpleado";
-            // 
-            // NombreC
-            // 
-            this.NombreC.HeaderText = "Nombre Cliente";
-            this.NombreC.Name = "NombreC";
-            // 
-            // IDCliente
-            // 
-            this.IDCliente.HeaderText = "ID Cliente";
-            this.IDCliente.Name = "IDCliente";
-            // 
-            // TipoPc
-            // 
-            this.TipoPc.HeaderText = "Tipo Pc";
-            this.TipoPc.Name = "TipoPc";
-            // 
-            // SistemaO
-            // 
-            this.SistemaO.HeaderText = "Sistema Opertivo";
-            this.SistemaO.Name = "SistemaO";
-            // 
-            // SOI
-            // 
-            this.SOI.HeaderText = "Sistema O. I.";
-            this.SOI.Name = "SOI";
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.HeaderText = "Descripcion";
-            this.Descripcion.Name = "Descripcion";
-            // 
-            // Fecha
-            // 
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
-            // 
-            // Modificar
-            // 
-            this.Modificar.HeaderText = "Modificar";
-            this.Modificar.Name = "Modificar";
-            this.Modificar.Text = "Modificar";
-            // 
-            // Borrar
-            // 
-            this.Borrar.HeaderText = "Borrar";
-            this.Borrar.Name = "Borrar";
             // 
             // label1
             // 
@@ -141,11 +86,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(614, 27);
+            this.label1.Location = new System.Drawing.Point(593, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 23);
+            this.label1.Size = new System.Drawing.Size(161, 23);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Consultar Tareas";
+            this.label1.Text = "Consultar Servicios";
             // 
             // label2
             // 
@@ -199,13 +144,89 @@
             this.BtnVolver.UseVisualStyleBackColor = true;
             this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
+            // IDTarea
+            // 
+            this.IDTarea.HeaderText = "ID Tarea";
+            this.IDTarea.Name = "IDTarea";
+            // 
+            // NombreE
+            // 
+            this.NombreE.HeaderText = "Nombre Empleado";
+            this.NombreE.Name = "NombreE";
+            // 
+            // IDEmpleado
+            // 
+            this.IDEmpleado.HeaderText = "ID Empleado";
+            this.IDEmpleado.Name = "IDEmpleado";
+            // 
+            // NombreC
+            // 
+            this.NombreC.HeaderText = "Nombre Cliente";
+            this.NombreC.Name = "NombreC";
+            // 
+            // IDCliente
+            // 
+            this.IDCliente.HeaderText = "ID Cliente";
+            this.IDCliente.Name = "IDCliente";
+            // 
+            // TipoPc
+            // 
+            this.TipoPc.HeaderText = "Tipo Pc";
+            this.TipoPc.Name = "TipoPc";
+            // 
+            // SistemaO
+            // 
+            this.SistemaO.HeaderText = "Sistema Opertivo";
+            this.SistemaO.Name = "SistemaO";
+            // 
+            // SOI
+            // 
+            this.SOI.HeaderText = "Sistema O. I.";
+            this.SOI.Name = "SOI";
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.HeaderText = "Descripcion";
+            this.Descripcion.Name = "Descripcion";
+            // 
+            // Fecha
+            // 
+            this.Fecha.HeaderText = "Fecha";
+            this.Fecha.Name = "Fecha";
+            // 
+            // Pago
+            // 
+            this.Pago.HeaderText = "Pago";
+            this.Pago.Name = "Pago";
+            // 
+            // Estado
+            // 
+            this.Estado.HeaderText = "Estado";
+            this.Estado.Name = "Estado";
+            // 
+            // Anticipo
+            // 
+            this.Anticipo.HeaderText = "Anticipo";
+            this.Anticipo.Name = "Anticipo";
+            // 
+            // Modificar
+            // 
+            this.Modificar.HeaderText = "Modificar";
+            this.Modificar.Name = "Modificar";
+            this.Modificar.Text = "Modificar";
+            // 
+            // Borrar
+            // 
+            this.Borrar.HeaderText = "Borrar";
+            this.Borrar.Name = "Borrar";
+            // 
             // ConsultarTareas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Tecnocom_Wolf.Properties.Resources.fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(767, 417);
+            this.ClientSize = new System.Drawing.Size(947, 417);
             this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.BtnBuscar);
             this.Controls.Add(this.BtnLimpiar);
@@ -217,7 +238,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ConsultarTareas";
-            this.Text = "ConsultarTareas";
+            this.Text = "Consultar Servicios";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ConsultarTareas_FormClosing);
             this.Load += new System.EventHandler(this.ConsultarTareas_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ConsultarTareas_KeyDown);
@@ -235,6 +256,7 @@
         private System.Windows.Forms.TextBox TxtClaveTarea;
         private System.Windows.Forms.Button BtnLimpiar;
         private System.Windows.Forms.Button BtnBuscar;
+        private System.Windows.Forms.Button BtnVolver;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDTarea;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreE;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDEmpleado;
@@ -245,8 +267,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn SOI;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Pago;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Anticipo;
         private System.Windows.Forms.DataGridViewButtonColumn Modificar;
         private System.Windows.Forms.DataGridViewButtonColumn Borrar;
-        private System.Windows.Forms.Button BtnVolver;
     }
 }

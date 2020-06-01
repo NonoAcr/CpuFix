@@ -23,10 +23,10 @@ namespace Tecnocom_Wolf
         // Declaracion De Variables Gloables 
 
         //SqlConnection conexion = new SqlConnection("server = localhost; Initial Catalog = cpu_fix; integrated security = true");
-        SqlConnection conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
         string cadena = "";
         Consultas Consultas = new Consultas();
-        string User = "", Pass = "", Tipo = "";
+        string User = "", Pass = "", Tipo = "", Nombre = "";
 
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
@@ -57,6 +57,7 @@ namespace Tecnocom_Wolf
                     User = sqldr["ID_USUARIO"].ToString();
                     Pass = sqldr["CONTRASEÑA"].ToString();
                     Tipo = sqldr["TIPO_USUARIO"].ToString();
+                    Nombre = sqldr["NOMBRE"].ToString();
                 }
 
                 conexion.Close();
@@ -67,14 +68,17 @@ namespace Tecnocom_Wolf
                     if (Tipo == "ADMINISTRADOR")
                     {
                         tipoUsuario.tipoUs = "ADMINISTRADOR";
+                        tipoUsuario.NombreUs = Nombre;
                         this.Hide();
                         Bienvenido B = new Bienvenido();
                         B.ShowDialog();
+
 
                     }
                     else if (Tipo == "ESTANDAR")
                     {
                         tipoUsuario.tipoUs = "ESTANDAR";
+                        tipoUsuario.NombreUs = Nombre;
                         this.Hide();
                         Estandar E = new Estandar();
                         E.ShowDialog();

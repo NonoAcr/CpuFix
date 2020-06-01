@@ -10,7 +10,7 @@ namespace Tecnocom_Wolf
 {
     class Registros
     {
-        SqlConnection Conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection Conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
         string Cadena = "";
 
         public void RegistrarClientes_ModificarClientes(TextBox TxtNombre, TextBox TxtClave, TextBox TxtDireccion, TextBox TxtCorreo, TextBox TxtTelefono,string Operacion)
@@ -79,15 +79,19 @@ namespace Tecnocom_Wolf
             
         }
 
-        public void Registrartareas(TextBox TxtCEmpleado, TextBox TxtNCliente, TextBox TxtCTarea, ComboBox CbxTipoPc, ComboBox CbxTReparacion, ComboBox CbxSO, ComboBox CbxSOI, TextBox TxtDescripcion, DateTimePicker DtpFecha )
+        public void Registrartareas(ComboBox cbxClaveEmp, TextBox TxtNCliente, TextBox TxtCTarea, ComboBox CbxTipoPc, ComboBox CbxTReparacion,
+            ComboBox CbxSO, ComboBox CbxSOI, TextBox TxtDescripcion, ComboBox cbxAnticipo,ComboBox cbxEstado,TextBox txtPago
+            ,DateTimePicker DtpFecha )
         {
 
             Conexion.Open();
 
-            Cadena = "INSERT INTO DATOS (CLAVE_EMPLEADO,CLAVE_TRABAJO,NUM_CLIENTE,TIPOPC,TIPO_REPARACION,SISTEMA_OPERATIVO,SOFTWARE_INSTALACION,DESCRIPCION,FECHA) VALUES (@CEMPLEADO,@CTAREA,@NCLIENTE,@TIPOPC,@TIPOREPARACION,@SO,@SOI,@DESCRIPCION,@FECHA)";
+            Cadena = "INSERT INTO DATOS (CLAVE_EMPLEADO,CLAVE_TRABAJO,NUM_CLIENTE,TIPOPC,TIPO_REPARACION,SISTEMA_OPERATIVO" +
+                ",SOFTWARE_INSTALACION,DESCRIPCION,FECHA,PAGO,ESTADO,ANTICIPO) VALUES (@CEMPLEADO,@CTAREA,@NCLIENTE,@TIPOPC,@TIPOREPARACION" +
+                ",@SO,@SOI,@DESCRIPCION,@FECHA,@PAGO,@ESTADO,@ANTICIPO)";
             SqlCommand com = new SqlCommand(Cadena, Conexion);
       
-            com.Parameters.AddWithValue("@CEmpleado", TxtCEmpleado.Text);
+            com.Parameters.AddWithValue("@CEmpleado", cbxClaveEmp.Text);
             com.Parameters.AddWithValue("@NCliente", Convert.ToInt32(TxtNCliente.Text));
             com.Parameters.AddWithValue("@CTarea", TxtCTarea.Text);
             com.Parameters.AddWithValue("@TipoPc", CbxTipoPc.Text);
@@ -96,6 +100,9 @@ namespace Tecnocom_Wolf
             com.Parameters.AddWithValue("@SOI", CbxSOI.Text);
             com.Parameters.AddWithValue("@Descripcion", TxtDescripcion.Text);
             com.Parameters.AddWithValue("@Fecha", DtpFecha.Text);
+            com.Parameters.AddWithValue("@Pago", txtPago.Text);
+            com.Parameters.AddWithValue("@Estado", cbxEstado.Text);
+            com.Parameters.AddWithValue("@Anticipo", cbxAnticipo.Text);
             com.ExecuteNonQuery();
 
 
@@ -104,7 +111,9 @@ namespace Tecnocom_Wolf
 
         public void ModificarTrabajo(DataGridView Datos)
         {
-            Cadena = "  UPDATE  DATOS SET  CLAVE_EMPLEADO = @CLAVE_EMPLEADO, NUM_CLIENTE = @NUM_CLIENTE, TIPOPC = @TIPOPC, SISTEMA_OPERATIVO = @SISTEMA_OPERATIVO, SOFTWARE_INSTALACION = @SOFTWARE_INSTALACION,DESCRIPCION = @DESCRIPCION, FECHA = @FECHA WHERE CLAVE_TRABAJO = @CLAVE_TRABAJO";
+            Cadena = "  UPDATE  DATOS SET  CLAVE_EMPLEADO = @CLAVE_EMPLEADO, NUM_CLIENTE = @NUM_CLIENTE, TIPOPC = @TIPOPC," +
+                " SISTEMA_OPERATIVO = @SISTEMA_OPERATIVO, SOFTWARE_INSTALACION = @SOFTWARE_INSTALACION,DESCRIPCION = @DESCRIPCION," +
+                " PAGO = @PAGO, ESTADO = @ESTADO, ANTICIPO = @ANTICIPO, FECHA = @FECHA WHERE CLAVE_TRABAJO = @CLAVE_TRABAJO";
             SqlCommand com = new SqlCommand(Cadena, Conexion);
             Conexion.Open();
             com.Parameters.AddWithValue("@CLAVE_TRABAJO", Datos.CurrentRow.Cells[0].Value.ToString());
@@ -115,6 +124,9 @@ namespace Tecnocom_Wolf
             com.Parameters.AddWithValue("@SOFTWARE_INSTALACION", Datos.CurrentRow.Cells[7].Value.ToString());
             com.Parameters.AddWithValue("@DESCRIPCION", Datos.CurrentRow.Cells[8].Value.ToString());
             com.Parameters.AddWithValue("@FECHA", Datos.CurrentRow.Cells[9].Value.ToString());
+            com.Parameters.AddWithValue("@PAGO", Datos.CurrentRow.Cells[10].Value.ToString());
+            com.Parameters.AddWithValue("@ESTADO", Datos.CurrentRow.Cells[11].Value.ToString());
+            com.Parameters.AddWithValue("@ANTICIPO", Datos.CurrentRow.Cells[12].Value.ToString());
             com.ExecuteNonQuery();
 
             Conexion.Close();

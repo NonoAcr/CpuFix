@@ -76,5 +76,10 @@ namespace Tecnocom_Wolf
             log.Show();
             this.Close();
         }
+
+        private void Estandar_Load(object sender, EventArgs e)
+        {
+            lblNomUs.Text = tipoUsuario.NombreUs;
+        }
     }
 }

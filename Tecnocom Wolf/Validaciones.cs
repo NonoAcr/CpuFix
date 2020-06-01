@@ -126,7 +126,7 @@ namespace Tecnocom_Wolf
         PictureBox pictureBox2, PictureBox pictureBox3, PictureBox pictureBox4, PictureBox pictureBox5)
         {
             /*Patron de diseño Cadena de responsabilidad*/
-            string Clave = "", Operacion = "";
+            string Clave = "", Operacion = "", IdUsuario = "";
             bool bande = true;
             bool band = true;
             string N = TxtNombreE.Text;
@@ -192,9 +192,14 @@ namespace Tecnocom_Wolf
 
                 if (bande == true)
                 {
+                    IdUsuario = Consultas.VerificarIdUser(TxtIDUsuaro);
                     Clave = Consultas.VerificarClaveEmpleado(TxtCEmpleado);
-
-                    if (Clave == TxtCEmpleado.Text)
+                    if (IdUsuario == TxtIDUsuaro.Text)
+                    {
+                        MessageBox.Show("El id de usuario Ya Se Encuentra Registrada");
+                        TxtIDUsuaro.Focus();
+                    }
+                    else if(Clave == TxtCEmpleado.Text)
                     {
                         MessageBox.Show("La Clave De Empleado Ya Se Encuentra Registrada");
                         TxtCEmpleado.Focus();
@@ -226,10 +231,12 @@ namespace Tecnocom_Wolf
             pictureBox5.Hide();
         }
 
-        public void RegistrarTrabajos(TextBox TxtNombreC, TextBox TxtNumeroC, TextBox TxtCEmpleado, TextBox TxtCTarea,
-         ComboBox CbxTipoReparacion, ComboBox CbxSOI, ComboBox CbxSO, ComboBox CbxTipoPC, TextBox TxtDescripcion,
+        public void RegistrarTrabajos(ComboBox cbxNombreCliente, TextBox TxtNumeroC, ComboBox cbxClaveEmp, TextBox TxtCTarea,
+         ComboBox CbxTipoReparacion, ComboBox CbxSOI, ComboBox CbxSO, ComboBox CbxTipoPC, TextBox TxtDescripcion, ComboBox cbxAnticipo,
+         ComboBox cbxEstado, TextBox txtPago,
          PictureBox pictureBox1, PictureBox pictureBox2, PictureBox pictureBox3, PictureBox pictureBox4, PictureBox pictureBox5,
-         PictureBox pictureBox6, PictureBox pictureBox7, PictureBox pictureBox8, PictureBox pictureBox9, DateTimePicker DtpFecha)
+         PictureBox pictureBox6, PictureBox pictureBox7, PictureBox pictureBox8, PictureBox pictureBox9, PictureBox pictureBox10
+         , PictureBox pictureBox11, PictureBox pictureBox12, PictureBox pictureBox13, DateTimePicker DtpFecha)
         {
             bool bande = true;
             bool band = true;
@@ -249,74 +256,92 @@ namespace Tecnocom_Wolf
             pictureBox7.Hide();
             pictureBox8.Hide();
             pictureBox9.Hide();
+            pictureBox10.Hide();
+            pictureBox11.Hide();
+            pictureBox12.Hide();
+            pictureBox13.Hide();
             if (CT.Length > 2)
             {
                 band = false;
                 MessageBox.Show("Clave Tarea maximo 2 numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            if (D.Length < 10)
-            {
-                band = false;
-                MessageBox.Show("Descripción minima 10 caracteres", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                pictureBox9.Show();
-            }
-            if (D.Length > 100)
-            {
-                band = false;
-                MessageBox.Show("Descripción maxima 100 caracteres", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                pictureBox9.Show();
-            }
             if (band == true)
             {
-                if (TxtNombreC.Text == "")
+                if (cbxNombreCliente.Text == "")
                 {
                     pictureBox1.Show();
                     bande = false;
                 }
                 if (TxtNumeroC.Text == "")
                 {
-                    pictureBox2.Show();
-                    bande = false;
-                }
-                if (TxtCEmpleado.Text == "")
-                {
                     pictureBox3.Show();
                     bande = false;
                 }
-                if (TxtCTarea.Text == "")
+                if (cbxClaveEmp.Text == "")
                 {
                     pictureBox4.Show();
                     bande = false;
                 }
-                if (CbxTipoReparacion.Text == "")
+                if (TxtCTarea.Text == "")
                 {
                     pictureBox5.Show();
                     bande = false;
                 }
-                if (CbxSOI.Text == "")
+                if (CbxTipoReparacion.Text == "")
                 {
                     pictureBox6.Show();
                     bande = false;
                 }
-                if (CbxSO.Text == "")
+                if (CbxSOI.Text == "")
                 {
                     pictureBox7.Show();
                     bande = false;
                 }
-                if (CbxTipoPC.Text == "")
+                if (CbxSO.Text == "")
                 {
                     pictureBox8.Show();
                     bande = false;
                 }
-                if (TxtDescripcion.Text == "")
+                if (CbxTipoPC.Text == "")
                 {
                     pictureBox9.Show();
                     bande = false;
                 }
-
+                if (TxtDescripcion.Text == "")
+                {
+                    pictureBox13.Show();
+                    bande = false;
+                }
+                if(cbxAnticipo.Text == "")
+                {
+                    pictureBox10.Show();
+                    bande = false;
+                }
+                if(cbxEstado.Text == "")
+                {
+                    pictureBox11.Show();
+                    bande = false;
+                }
+                if(txtPago.Text == "")
+                {
+                    pictureBox12.Show();
+                    bande = false;
+                }
+                if (D.Length < 10)
+                {
+                    band = false;
+                    MessageBox.Show("Descripción minima 10 caracteres", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    pictureBox9.Show();
+                }
+                if (D.Length > 100)
+                {
+                    band = false;
+                    MessageBox.Show("Descripción maxima 100 caracteres", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    pictureBox9.Show();
+                }
                 Clavet = Consultas.COnsultarClavetarea(TxtCTarea, Clavet);
-                ClaveE = Consultas.CEmpleado(TxtCEmpleado, ClaveE);
-                ClaveC = Consultas.CCliente(TxtNumeroC, ClaveC);
+               /* ClaveE = Consultas.CEmpleado(TxtCEmpleado, ClaveE);
+                ClaveC = Consultas.CCliente(TxtNumeroC, ClaveC);*/
                 if (bande == true)
                 {
                     if (Clavet == TxtCTarea.Text)
@@ -325,7 +350,7 @@ namespace Tecnocom_Wolf
                         TxtCTarea.Focus();
                     }
                     else
-                    if (ClaveE != TxtCEmpleado.Text)
+                    /*if (ClaveE != TxtCEmpleado.Text)
                     {
                         MessageBox.Show("El Empleado No Esta Registrado");
                         TxtCEmpleado.Focus();
@@ -334,9 +359,10 @@ namespace Tecnocom_Wolf
                     {
                         MessageBox.Show("El Cliente No esta Registrado");
                     }
-                    else
+                    else*/
                     {
-                        Registros.Registrartareas(TxtCEmpleado, TxtNumeroC, TxtCTarea, CbxTipoPC, CbxTipoReparacion, CbxSO, CbxSOI, TxtDescripcion, DtpFecha);
+                        Registros.Registrartareas(cbxClaveEmp, TxtNumeroC, TxtCTarea, CbxTipoPC, CbxTipoReparacion, CbxSO, CbxSOI, TxtDescripcion,
+                            cbxAnticipo, cbxEstado, txtPago, DtpFecha);
                         MessageBox.Show("Tarea Registrada Correctamente");
                     }
 

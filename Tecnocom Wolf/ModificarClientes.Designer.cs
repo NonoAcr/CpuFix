@@ -190,6 +190,7 @@
             this.label6.Size = new System.Drawing.Size(94, 13);
             this.label6.TabIndex = 27;
             this.label6.Text = "Nombre de Cliente";
+            this.label6.Click += new System.EventHandler(this.Label6_Click);
             // 
             // CbxNombreM
             // 
@@ -213,6 +214,7 @@
             this.label7.Size = new System.Drawing.Size(69, 13);
             this.label7.TabIndex = 29;
             this.label7.Text = "Clave Cliente";
+            this.label7.Click += new System.EventHandler(this.Label7_Click);
             // 
             // CbxClaveM
             // 
