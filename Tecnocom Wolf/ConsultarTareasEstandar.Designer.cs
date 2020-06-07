@@ -50,7 +50,6 @@
             this.TxtClaveTarea = new System.Windows.Forms.TextBox();
             this.BtnLimpiar = new System.Windows.Forms.Button();
             this.BtnBuscar = new System.Windows.Forms.Button();
-            this.BtnVolver = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Reg_clientes = new System.Windows.Forms.ToolStripMenuItem();
@@ -220,16 +219,6 @@
             this.BtnBuscar.UseVisualStyleBackColor = true;
             this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
-            // BtnVolver
-            // 
-            this.BtnVolver.Location = new System.Drawing.Point(679, 388);
-            this.BtnVolver.Name = "BtnVolver";
-            this.BtnVolver.Size = new System.Drawing.Size(75, 23);
-            this.BtnVolver.TabIndex = 5;
-            this.BtnVolver.Text = "Volver";
-            this.BtnVolver.UseVisualStyleBackColor = true;
-            this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
-            // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -255,21 +244,21 @@
             // Reg_clientes
             // 
             this.Reg_clientes.Name = "Reg_clientes";
-            this.Reg_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Reg_clientes.Size = new System.Drawing.Size(125, 22);
             this.Reg_clientes.Text = "Registrar";
             this.Reg_clientes.Click += new System.EventHandler(this.Reg_clientes_Click);
             // 
             // Mod_clientes
             // 
             this.Mod_clientes.Name = "Mod_clientes";
-            this.Mod_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Mod_clientes.Size = new System.Drawing.Size(125, 22);
             this.Mod_clientes.Text = "Modificar";
             this.Mod_clientes.Click += new System.EventHandler(this.Mod_clientes_Click);
             // 
             // Cons_clientes
             // 
             this.Cons_clientes.Name = "Cons_clientes";
-            this.Cons_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Cons_clientes.Size = new System.Drawing.Size(125, 22);
             this.Cons_clientes.Text = "Consultar";
             this.Cons_clientes.Click += new System.EventHandler(this.Cons_clientes_Click);
             // 
@@ -285,14 +274,14 @@
             // Add_tareas
             // 
             this.Add_tareas.Name = "Add_tareas";
-            this.Add_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Add_tareas.Size = new System.Drawing.Size(125, 22);
             this.Add_tareas.Text = "Agregar";
             this.Add_tareas.Click += new System.EventHandler(this.Add_tareas_Click);
             // 
             // Cons_tareas
             // 
             this.Cons_tareas.Name = "Cons_tareas";
-            this.Cons_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Cons_tareas.Size = new System.Drawing.Size(125, 22);
             this.Cons_tareas.Text = "Consultar";
             this.Cons_tareas.Click += new System.EventHandler(this.Cons_tareas_Click);
             // 
@@ -311,7 +300,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(947, 417);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.BtnBuscar);
             this.Controls.Add(this.BtnLimpiar);
             this.Controls.Add(this.TxtClaveTarea);
@@ -342,7 +330,6 @@
         private System.Windows.Forms.TextBox TxtClaveTarea;
         private System.Windows.Forms.Button BtnLimpiar;
         private System.Windows.Forms.Button BtnBuscar;
-        private System.Windows.Forms.Button BtnVolver;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDTarea;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreE;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDEmpleado;

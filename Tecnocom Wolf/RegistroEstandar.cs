@@ -121,24 +121,7 @@ namespace Tecnocom_Wolf
             }
         }
 
-        private void BtnVolver_Click(object sender, EventArgs e)
-        {
-            if (tipoUsuario.tipoUs == "ADMINISTRADOR")
-            {
-                Bienvenido Prin = new Bienvenido();
-                Prin.Show();
-                this.Close();
-                /*this.Visible = true;
-                this.Owner.Show();*/
-            }
-            else
-            {
-                Estandar Est = new Estandar();
-                Est.Show();
-                this.Close();
-            }
-        }
-
+       
         private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Consultardatos();

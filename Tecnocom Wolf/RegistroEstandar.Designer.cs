@@ -58,7 +58,6 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.BtnVolver = new System.Windows.Forms.Button();
             this.lblNomClien = new System.Windows.Forms.Label();
             this.txtNomClien = new System.Windows.Forms.TextBox();
             this.RbClave = new System.Windows.Forms.RadioButton();
@@ -421,17 +420,6 @@
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Visible = false;
             // 
-            // BtnVolver
-            // 
-            this.BtnVolver.ForeColor = System.Drawing.Color.Black;
-            this.BtnVolver.Location = new System.Drawing.Point(698, 453);
-            this.BtnVolver.Name = "BtnVolver";
-            this.BtnVolver.Size = new System.Drawing.Size(75, 23);
-            this.BtnVolver.TabIndex = 46;
-            this.BtnVolver.Text = "Volver";
-            this.BtnVolver.UseVisualStyleBackColor = true;
-            this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
-            // 
             // lblNomClien
             // 
             this.lblNomClien.AutoSize = true;
@@ -670,21 +658,21 @@
             // Reg_clientes
             // 
             this.Reg_clientes.Name = "Reg_clientes";
-            this.Reg_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Reg_clientes.Size = new System.Drawing.Size(125, 22);
             this.Reg_clientes.Text = "Registrar";
             this.Reg_clientes.Click += new System.EventHandler(this.Reg_clientes_Click);
             // 
             // Mod_clientes
             // 
             this.Mod_clientes.Name = "Mod_clientes";
-            this.Mod_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Mod_clientes.Size = new System.Drawing.Size(125, 22);
             this.Mod_clientes.Text = "Modificar";
             this.Mod_clientes.Click += new System.EventHandler(this.Mod_clientes_Click);
             // 
             // Cons_clientes
             // 
             this.Cons_clientes.Name = "Cons_clientes";
-            this.Cons_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Cons_clientes.Size = new System.Drawing.Size(125, 22);
             this.Cons_clientes.Text = "Consultar";
             this.Cons_clientes.Click += new System.EventHandler(this.Cons_clientes_Click);
             // 
@@ -700,14 +688,14 @@
             // Add_tareas
             // 
             this.Add_tareas.Name = "Add_tareas";
-            this.Add_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Add_tareas.Size = new System.Drawing.Size(125, 22);
             this.Add_tareas.Text = "Agregar";
             this.Add_tareas.Click += new System.EventHandler(this.Add_tareas_Click);
             // 
             // Cons_tareas
             // 
             this.Cons_tareas.Name = "Cons_tareas";
-            this.Cons_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Cons_tareas.Size = new System.Drawing.Size(125, 22);
             this.Cons_tareas.Text = "Consultar";
             this.Cons_tareas.Click += new System.EventHandler(this.Cons_tareas_Click);
             // 
@@ -745,7 +733,6 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.txtNomClien);
             this.Controls.Add(this.lblNomClien);
-            this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -834,7 +821,6 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Button BtnVolver;
         private System.Windows.Forms.Label lblNomClien;
         private System.Windows.Forms.TextBox txtNomClien;
         private System.Windows.Forms.RadioButton RbClave;

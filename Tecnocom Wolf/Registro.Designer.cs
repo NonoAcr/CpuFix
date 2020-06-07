@@ -58,7 +58,6 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.BtnVolver = new System.Windows.Forms.Button();
             this.lblNomClien = new System.Windows.Forms.Label();
             this.txtNomClien = new System.Windows.Forms.TextBox();
             this.RbClave = new System.Windows.Forms.RadioButton();
@@ -426,17 +425,6 @@
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Visible = false;
             // 
-            // BtnVolver
-            // 
-            this.BtnVolver.ForeColor = System.Drawing.Color.Black;
-            this.BtnVolver.Location = new System.Drawing.Point(698, 453);
-            this.BtnVolver.Name = "BtnVolver";
-            this.BtnVolver.Size = new System.Drawing.Size(75, 23);
-            this.BtnVolver.TabIndex = 46;
-            this.BtnVolver.Text = "Volver";
-            this.BtnVolver.UseVisualStyleBackColor = true;
-            this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
-            // 
             // lblNomClien
             // 
             this.lblNomClien.AutoSize = true;
@@ -677,21 +665,21 @@
             // Reg_empleado
             // 
             this.Reg_empleado.Name = "Reg_empleado";
-            this.Reg_empleado.Size = new System.Drawing.Size(180, 22);
+            this.Reg_empleado.Size = new System.Drawing.Size(125, 22);
             this.Reg_empleado.Text = "Registrar";
             this.Reg_empleado.Click += new System.EventHandler(this.Reg_empleado_Click);
             // 
             // Cons_empleado
             // 
             this.Cons_empleado.Name = "Cons_empleado";
-            this.Cons_empleado.Size = new System.Drawing.Size(180, 22);
+            this.Cons_empleado.Size = new System.Drawing.Size(125, 22);
             this.Cons_empleado.Text = "Consultar";
             this.Cons_empleado.Click += new System.EventHandler(this.Cons_empleado_Click);
             // 
             // Mod_empleado
             // 
             this.Mod_empleado.Name = "Mod_empleado";
-            this.Mod_empleado.Size = new System.Drawing.Size(180, 22);
+            this.Mod_empleado.Size = new System.Drawing.Size(125, 22);
             this.Mod_empleado.Text = "Modificar";
             this.Mod_empleado.Click += new System.EventHandler(this.Mod_empleado_Click);
             // 
@@ -708,21 +696,21 @@
             // Reg_cliente
             // 
             this.Reg_cliente.Name = "Reg_cliente";
-            this.Reg_cliente.Size = new System.Drawing.Size(180, 22);
+            this.Reg_cliente.Size = new System.Drawing.Size(125, 22);
             this.Reg_cliente.Text = "Registrar";
             this.Reg_cliente.Click += new System.EventHandler(this.Reg_cliente_Click);
             // 
             // Mod_cliente
             // 
             this.Mod_cliente.Name = "Mod_cliente";
-            this.Mod_cliente.Size = new System.Drawing.Size(180, 22);
+            this.Mod_cliente.Size = new System.Drawing.Size(125, 22);
             this.Mod_cliente.Text = "Modificar";
             this.Mod_cliente.Click += new System.EventHandler(this.Mod_cliente_Click);
             // 
             // Cons_cliente
             // 
             this.Cons_cliente.Name = "Cons_cliente";
-            this.Cons_cliente.Size = new System.Drawing.Size(180, 22);
+            this.Cons_cliente.Size = new System.Drawing.Size(125, 22);
             this.Cons_cliente.Text = "Consultar";
             this.Cons_cliente.Click += new System.EventHandler(this.Cons_cliente_Click);
             // 
@@ -738,14 +726,14 @@
             // Add_tarea
             // 
             this.Add_tarea.Name = "Add_tarea";
-            this.Add_tarea.Size = new System.Drawing.Size(180, 22);
+            this.Add_tarea.Size = new System.Drawing.Size(125, 22);
             this.Add_tarea.Text = "Agregar";
             this.Add_tarea.Click += new System.EventHandler(this.Add_tarea_Click);
             // 
             // Cons_tarea
             // 
             this.Cons_tarea.Name = "Cons_tarea";
-            this.Cons_tarea.Size = new System.Drawing.Size(180, 22);
+            this.Cons_tarea.Size = new System.Drawing.Size(125, 22);
             this.Cons_tarea.Text = "Consultar";
             this.Cons_tarea.Click += new System.EventHandler(this.Cons_tarea_Click);
             // 
@@ -790,7 +778,6 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.txtNomClien);
             this.Controls.Add(this.lblNomClien);
-            this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -879,7 +866,6 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Button BtnVolver;
         private System.Windows.Forms.Label lblNomClien;
         private System.Windows.Forms.TextBox txtNomClien;
         private System.Windows.Forms.RadioButton RbClave;

@@ -42,7 +42,6 @@
             this.TxtDireccion = new System.Windows.Forms.TextBox();
             this.BtnRegistrar = new System.Windows.Forms.Button();
             this.BtnLimpiar = new System.Windows.Forms.Button();
-            this.btnVolver = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -198,16 +197,6 @@
             this.BtnLimpiar.UseVisualStyleBackColor = true;
             this.BtnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
             // 
-            // btnVolver
-            // 
-            this.btnVolver.Location = new System.Drawing.Point(451, 366);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(75, 23);
-            this.btnVolver.TabIndex = 14;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
@@ -301,21 +290,21 @@
             // Reg_clientes
             // 
             this.Reg_clientes.Name = "Reg_clientes";
-            this.Reg_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Reg_clientes.Size = new System.Drawing.Size(125, 22);
             this.Reg_clientes.Text = "Registrar";
             this.Reg_clientes.Click += new System.EventHandler(this.Reg_clientes_Click);
             // 
             // Mod_clientes
             // 
             this.Mod_clientes.Name = "Mod_clientes";
-            this.Mod_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Mod_clientes.Size = new System.Drawing.Size(125, 22);
             this.Mod_clientes.Text = "Modificar";
             this.Mod_clientes.Click += new System.EventHandler(this.Mod_clientes_Click);
             // 
             // Cons_clientes
             // 
             this.Cons_clientes.Name = "Cons_clientes";
-            this.Cons_clientes.Size = new System.Drawing.Size(180, 22);
+            this.Cons_clientes.Size = new System.Drawing.Size(125, 22);
             this.Cons_clientes.Text = "Consultar";
             this.Cons_clientes.Click += new System.EventHandler(this.Cons_clientes_Click);
             // 
@@ -331,14 +320,14 @@
             // Add_tareas
             // 
             this.Add_tareas.Name = "Add_tareas";
-            this.Add_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Add_tareas.Size = new System.Drawing.Size(125, 22);
             this.Add_tareas.Text = "Agregar";
             this.Add_tareas.Click += new System.EventHandler(this.Add_tareas_Click);
             // 
             // Cons_tareas
             // 
             this.Cons_tareas.Name = "Cons_tareas";
-            this.Cons_tareas.Size = new System.Drawing.Size(180, 22);
+            this.Cons_tareas.Size = new System.Drawing.Size(125, 22);
             this.Cons_tareas.Text = "Consultar";
             this.Cons_tareas.Click += new System.EventHandler(this.Cons_tareas_Click);
             // 
@@ -363,7 +352,6 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.BtnLimpiar);
             this.Controls.Add(this.BtnRegistrar);
             this.Controls.Add(this.TxtDireccion);
@@ -412,7 +400,6 @@
         private System.Windows.Forms.TextBox TxtDireccion;
         private System.Windows.Forms.Button BtnRegistrar;
         private System.Windows.Forms.Button BtnLimpiar;
-        private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
