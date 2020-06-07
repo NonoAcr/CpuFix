@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tecnocom_Wolf
 {
-    public partial class ConsultarTareas : Form
+    public partial class ConsultarTareasEstandar : Form
     {
-        public ConsultarTareas()
+        public ConsultarTareasEstandar()
         {
             InitializeComponent();
             this.KeyPreview = true;
@@ -129,88 +129,58 @@ namespace Tecnocom_Wolf
             }
         }
 
-        #region Menustrip
-
-        private void Reg_empleado_Click(object sender, EventArgs e)
+        #region Clientes
+        private void Reg_clientes_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            RegistrarEmpleado RE = new RegistrarEmpleado();
-            RE.Show();
-            b = "si";
-        }
-
-        private void Cons_empleado_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-            DgvConsultarEmpleados CE = new DgvConsultarEmpleados();
-            CE.Show();
-            b = "si";
-        }
-
-        private void Mod_empleado_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-            ModificarEmpleado ME = new ModificarEmpleado();
-            ME.Show();
-            b = "si";
-        }
-
-        private void Reg_cliente_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-            RegistrarClientes RC = new RegistrarClientes();
+            RegistrarClientesEstandar RC = new RegistrarClientesEstandar();
             RC.Show();
-            b = "si";
+            b = "no";
         }
 
-        private void Mod_cliente_Click(object sender, EventArgs e)
+        private void Mod_clientes_Click(object sender, EventArgs e)
         {
-            this.Dispose();
-            ModificarClientes MC = new ModificarClientes();
+            ModificarClientesEstandar MC = new ModificarClientesEstandar();
             MC.Show();
-            b = "si";
+            b = "no";
         }
 
-        private void Cons_cliente_Click(object sender, EventArgs e)
+        private void Cons_clientes_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            ConsultarClientes CC = new ConsultarClientes();
+            ConsultarClientesEstandar CC = new ConsultarClientesEstandar();
             CC.Show();
-            b = "si";
+            b = "no";
         }
 
-        private void Add_tarea_Click(object sender, EventArgs e)
+        #endregion
+
+        #region Tareas
+        private void Add_tareas_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            Registro R = new Registro();
+            RegistroEstandar R = new RegistroEstandar();
             R.Show();
-            b = "si";
+            b = "no";
         }
 
-        private void Cons_tarea_Click(object sender, EventArgs e)
+        private void Cons_tareas_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            ConsultarTareas CT = new ConsultarTareas();
+            ConsultarTareasEstandar CT = new ConsultarTareasEstandar();
             CT.Show();
-            b = "si";
+            b = "no";
         }
 
-        private void respaldoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-            Backup_BD bck = new Backup_BD();
-            bck.Show();
-            b = "si";
-        }
+        #endregion
 
         private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Dispose();
             this.Dispose();
             Login log = new Login();
             log.Show();
             this.Close();
         }
-
-        #endregion
     }
 }

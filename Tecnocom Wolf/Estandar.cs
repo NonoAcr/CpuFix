@@ -27,14 +27,14 @@ namespace Tecnocom_Wolf
         private void Reg_clientes_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            RegistrarClientes RC = new RegistrarClientes();
+            RegistrarClientesEstandar RC = new RegistrarClientesEstandar();
             RC.Show();
             b = "no";
         }
 
         private void Mod_clientes_Click(object sender, EventArgs e)
         {
-            ModificarClientes MC = new ModificarClientes();
+            ModificarClientesEstandar MC = new ModificarClientesEstandar();
             MC.Show();
             b = "no";
         }
@@ -42,7 +42,7 @@ namespace Tecnocom_Wolf
         private void Cons_clientes_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            ConsultarClientes CC = new ConsultarClientes();
+            ConsultarClientesEstandar CC = new ConsultarClientesEstandar();
             CC.Show();
             b = "no";
         }
@@ -53,7 +53,7 @@ namespace Tecnocom_Wolf
         private void Add_tareas_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            Registro R = new Registro();
+            RegistroEstandar R = new RegistroEstandar();
             R.Show();
             b = "no";
         }
@@ -61,7 +61,7 @@ namespace Tecnocom_Wolf
         private void Cons_tareas_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            ConsultarTareas CT = new ConsultarTareas();
+            ConsultarTareasEstandar CT = new ConsultarTareasEstandar();
             CT.Show();
             b = "no";
         }
