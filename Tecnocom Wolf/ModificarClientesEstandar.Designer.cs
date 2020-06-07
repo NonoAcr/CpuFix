@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModificarClientesEstandar));
             this.BtnLimpiar = new System.Windows.Forms.Button();
             this.BtnActualizar = new System.Windows.Forms.Button();
@@ -62,6 +63,7 @@
             this.Add_tareas = new System.Windows.Forms.ToolStripMenuItem();
             this.Cons_tareas = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -406,6 +408,12 @@
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar sesion";
             this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 60000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // ModificarClientesEstandar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -445,7 +453,9 @@
             this.Text = "ModificarClientes";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ModificarClientes_FormClosing);
             this.Load += new System.EventHandler(this.ModificarClientes_Load);
+            this.Click += new System.EventHandler(this.ModificarClientesEstandar_Click);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ModificarClientes_KeyDown);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ModificarClientesEstandar_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -493,5 +503,6 @@
         private System.Windows.Forms.ToolStripMenuItem Add_tareas;
         private System.Windows.Forms.ToolStripMenuItem Cons_tareas;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.Timer timer1;
     }
 }

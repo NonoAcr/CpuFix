@@ -10,7 +10,7 @@ namespace Tecnocom_Wolf
 {
     class Registros
     {
-        SqlConnection Conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection Conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
         string Cadena = "";
 
         public void RegistrarClientes_ModificarClientes(TextBox TxtNombre, TextBox TxtClave, TextBox TxtDireccion, TextBox TxtCorreo, TextBox TxtTelefono,string Operacion)

@@ -20,6 +20,7 @@ namespace Tecnocom_Wolf
             this.KeyPreview = true;
         }
 
+        public int count = 0;
         public string b = "";
         string Clave = "", Operacion = "";
         Consultas Consultas = new Consultas();
@@ -203,6 +204,37 @@ namespace Tecnocom_Wolf
             log.Show();
             this.Close();
         }
+
+        #region Timeout
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            count++;
+            if (count == 10)
+            {
+                timer1.Stop();
+                MessageBox.Show("La sesion a expirado, favor de volver a iniciar sesion");
+                timer1.Dispose();
+                this.Dispose();
+                Login log = new Login();
+                log.Show();
+                this.Close();
+            }
+        }
+
+        private void RegistrarClientesEstandar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            timer1.Stop();
+            timer1.Start();
+            count = 0;
+        }
+
+        private void RegistrarClientesEstandar_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            timer1.Start();
+            count = 0;
+        }
+#endregion
 
         private Boolean email_bien_escrito(string email)
         {

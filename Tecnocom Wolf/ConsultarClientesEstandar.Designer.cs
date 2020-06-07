@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultarClientesEstandar));
             this.label1 = new System.Windows.Forms.Label();
             this.RbClave = new System.Windows.Forms.RadioButton();
@@ -53,6 +54,7 @@
             this.Add_tareas = new System.Windows.Forms.ToolStripMenuItem();
             this.Cons_tareas = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.DgvClientes)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -280,6 +282,12 @@
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar sesion";
             this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 60000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // ConsultarClientesEstandar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -305,7 +313,9 @@
             this.Text = "ConsultarClientes";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ConsultarClientes_FormClosing);
             this.Load += new System.EventHandler(this.ConsultarClientes_Load);
+            this.Click += new System.EventHandler(this.ConsultarClientesEstandar_Click);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ConsultarClientes_KeyDown);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ConsultarClientesEstandar_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.DgvClientes)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -339,5 +349,6 @@
         private System.Windows.Forms.ToolStripMenuItem Add_tareas;
         private System.Windows.Forms.ToolStripMenuItem Cons_tareas;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.Timer timer1;
     }
 }

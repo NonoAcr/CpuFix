@@ -20,12 +20,13 @@ namespace Tecnocom_Wolf
             this.KeyPreview = true;
         }
 
+        public int count = 0;
         public string b = "";
         string cadena = "", Operacion = "";
         string Aux = "";
         Consultas Consultas = new Consultas();
         Registros Registros = new Registros();
-        SqlConnection Conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection Conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
 
         private void RbNombre_CheckedChanged(object sender, EventArgs e)
         {
@@ -358,6 +359,37 @@ namespace Tecnocom_Wolf
             log.Show();
             this.Close();
         }
+
+        #region Timeout
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            count++;
+            if (count == 10)
+            {
+                timer1.Stop();
+                MessageBox.Show("La sesion a expirado, favor de volver a iniciar sesion");
+                timer1.Dispose();
+                this.Dispose();
+                Login log = new Login();
+                log.Show();
+                this.Close();
+            }
+        }
+
+        private void ModificarClientesEstandar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            timer1.Stop();
+            timer1.Start();
+            count = 0;
+        }
+
+        private void ModificarClientesEstandar_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            timer1.Start();
+            count = 0;
+        }
+        #endregion
 
         private void CbxClaveM_TextChanged(object sender, EventArgs e)
         {

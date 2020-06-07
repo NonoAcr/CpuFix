@@ -23,7 +23,7 @@ namespace Tecnocom_Wolf
         // Declaracion De Variables Gloables 
 
         //SqlConnection conexion = new SqlConnection("server = localhost; Initial Catalog = cpu_fix; integrated security = true");
-        SqlConnection conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
         string cadena = "";
         Consultas Consultas = new Consultas();
         string User = "", Pass = "", Tipo = "", Nombre = "";
