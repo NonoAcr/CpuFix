@@ -11,7 +11,7 @@ namespace Tecnocom_Wolf
     class BaseDeDatos
     {
         /*Patron de diseño proxy*/
-        SqlConnection Conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog =cpu_fix ; integrated security = true");
+        SqlConnection Conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog =cpu_fix ; integrated security = true");
         
     }
 }

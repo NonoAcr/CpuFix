@@ -10,10 +10,10 @@ namespace Tecnocom_Wolf
 {
     class Registros
     {
-        SqlConnection Conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection Conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
         string Cadena = "";
 
-        public void RegistrarClientes_ModificarClientes(TextBox TxtNombre, TextBox TxtClave, TextBox TxtDireccion, TextBox TxtCorreo, TextBox TxtTelefono,string Operacion)
+        public void RegistrarClientes_ModificarClientes(TextBox TxtNombre, TextBox TxtClave, TextBox TxtDireccion, TextBox TxtCorreo, MaskedTextBox mtbTelefono, string Operacion)
         {
             /*Con este metodo se realizan los registros de Clientes en la interfaz RegistrarClientes*/
             if (Operacion == "Actualizar")
@@ -32,7 +32,7 @@ namespace Tecnocom_Wolf
             com.Parameters.AddWithValue("@Clave", TxtClave.Text);
             com.Parameters.AddWithValue("@direc", TxtDireccion.Text);
             com.Parameters.AddWithValue("@correo", TxtCorreo.Text);
-            com.Parameters.AddWithValue("@telefono", TxtTelefono.Text);
+            com.Parameters.AddWithValue("@telefono", mtbTelefono.Text);
             com.ExecuteNonQuery();
 
 

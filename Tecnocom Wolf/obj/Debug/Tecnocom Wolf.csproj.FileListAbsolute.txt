@@ -319,3 +319,8 @@ C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Cpu_fix\Tecnocom Wolf\obj\D
 C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Cpu_fix\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.csproj.CoreCompileInputs.cache
 C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Cpu_fix\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.exe
 C:\Users\Cholo\Desktop\Gestion de proyectos\Proyecto\Cpu_fix\Tecnocom Wolf\obj\Debug\Tecnocom Wolf.pdb
+C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarClientesEstandar.resources
+C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ConsultarTareasEstandar.resources
+C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.ModificarClientesEstandar.resources
+C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistrarClientesEstandar.resources
+C:\Users\arnol\Source\Repos\NonoAcr\CpuFix\Tecnocom Wolf\obj\Debug\Tecnocom_Wolf.RegistroEstandar.resources

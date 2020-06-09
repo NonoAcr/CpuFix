@@ -35,7 +35,7 @@ namespace Tecnocom_Wolf
             if(email_bien_escrito(correoIngresado) == true)
             {
                 
-                Validacion.ValidarRegistrarClientes(TxtNombre, TxtIdClave, TxtDireccion, TxtCorreo, TxtTelefono, pictureBox1, pictureBox2,
+                Validacion.ValidarRegistrarClientes(TxtNombre, TxtIdClave, TxtDireccion, TxtCorreo, mtbTelefono, pictureBox1, pictureBox2,
                 pictureBox3, pictureBox4, pictureBox5);
             }
             else
@@ -54,7 +54,7 @@ namespace Tecnocom_Wolf
             TxtCorreo.Text = "";
             TxtDireccion.Text = "";
             TxtIdClave.Text = "";
-            TxtTelefono.Text = "";
+            mtbTelefono.Text = "";
             TxtNombre.Focus();
             pictureBox1.Hide();
             pictureBox2.Hide();

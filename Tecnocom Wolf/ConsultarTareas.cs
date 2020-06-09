@@ -18,10 +18,12 @@ namespace Tecnocom_Wolf
             this.KeyPreview = true;
         }
         public string b = "";
+        string cadena = "";
+        string Aux = "";
 
         Consultas Consultas = new Consultas();
        
-        private void BtnBuscar_Click(object sender, EventArgs e)
+        /*private void BtnBuscar_Click(object sender, EventArgs e)
         {
             if (TxtClaveTarea.Text == "")
             {
@@ -30,13 +32,14 @@ namespace Tecnocom_Wolf
             }
             else
             {      
-                    Consultas.ConsultaDatos(DgvConsulta, TxtClaveTarea);
+                    //Consultas.ConsultaDatos(DgvConsulta, TxtClaveTarea);
             }
         }
+        */
 
         private void BtnLimpiar_Click(object sender, EventArgs e)
         {
-            TxtClaveTarea.Text = "";
+            //TxtClaveTarea.Text = "";
             DgvConsulta.Rows.Clear();
         }
 
@@ -72,8 +75,8 @@ namespace Tecnocom_Wolf
             {
                 Registros.ModificarTrabajo(DgvConsulta);
                 DgvConsulta.Rows.Clear();
-                TxtClaveTarea.Text = "";
-                TxtClaveTarea.Focus();
+                //TxtClaveTarea.Text = "";
+                CbxClaveT.Focus();
                 MessageBox.Show("Actualizacion Correcta");
             }else
                 if (this.DgvConsulta.Columns[e.ColumnIndex].Name.Equals("Borrar"))
@@ -82,8 +85,8 @@ namespace Tecnocom_Wolf
                 {
                     Registros.borrarTarea(DgvConsulta);
                     DgvConsulta.Rows.Clear();
-                    TxtClaveTarea.Text = "";
-                    TxtClaveTarea.Focus();
+                    //TxtClaveTarea.Text = "";
+                    CbxClaveT.Focus();
                     MessageBox.Show("La Tarea Se Borro Exitosamente");
                 }
             }
@@ -196,5 +199,31 @@ namespace Tecnocom_Wolf
         }
 
         #endregion
+
+        private void RbClave_CheckedChanged(object sender, EventArgs e)
+        {
+            Aux = "Clave";
+            Consultas.ConsultasCbxTarea(CbxClaveT, null, Aux);
+            CbxClaveT.Text = CbxClaveT.Items[0].ToString();
+        }
+
+        private void CbxClaveT_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ConsultarDatosTarea();
+        }
+        private void ConsultarDatosTarea()
+        {
+            DgvConsulta.Rows.Clear();
+            if (Aux == "Nombre")
+            {
+                //cadena = "SELECT * FROM EMPLEADOS WHERE NOMBRE =" + "'" + CbxNombre.Text + "'";
+            }
+            else if (Aux == "Clave")
+            {
+                cadena = "SELECT * FROM EMPLEADOS WHERE CLAVE_EMPLEADO =" + "'" + CbxClaveT.Text + "'";
+            }
+            Consultas.ConsultaDatos(DgvConsulta, cadena, CbxClaveT);
+            //Consultas.ConsultaDatos(DgvConsulta, CbxClaveT);
+        }
     }
 }

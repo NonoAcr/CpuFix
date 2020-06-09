@@ -10,7 +10,7 @@ namespace Tecnocom_Wolf
 {
     class Consultas
     {
-        SqlConnection Conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection Conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
         SqlDataReader sqldr;
                  
          /*Clientes*/
@@ -57,6 +57,35 @@ namespace Tecnocom_Wolf
                 else if (Aux == "Clave")
                 {
                     Clave.Items.Add(sqldr["NUM_CLIENTE"].ToString());
+                }
+            }
+
+            Conexion.Close();
+        }
+
+        public void ConsultasCbxTarea(ComboBox Clave, string Cadena, string Aux)
+        {
+            if (Aux == "Nombre")
+            {
+
+                Cadena = "SELECT DISTINCT CLAVE_TRABAJO  FROM CONSULTARDATOS";
+            }
+            else if (Aux == "Clave")
+            {
+                Cadena = "SELECT DISTINCT CLAVE_TRABAJO FROM CONSULTARDATOS";
+            }
+            Conexion.Open();
+            SqlCommand comando = new SqlCommand(Cadena, Conexion);
+            sqldr = comando.ExecuteReader();
+            while (sqldr.Read())
+            {
+                if (Aux == "Nombre")
+                {
+                    //Nombre.Items.Add(sqldr["NOMBRE"].ToString());
+                }
+                else if (Aux == "Clave")
+                {
+                    Clave.Items.Add(sqldr["CLAVE_TRABAJO"].ToString());
                 }
             }
 
@@ -117,7 +146,7 @@ namespace Tecnocom_Wolf
             }
             Conexion.Close();
     }
-        public void CargarConsulta(TextBox Nombre, TextBox Clave, TextBox Correo, TextBox Direccion, TextBox Telefono, string Cadena)
+        public void CargarConsulta(TextBox Nombre, TextBox Clave, TextBox Correo, TextBox Direccion, MaskedTextBox Telefono, string Cadena)
         {
             /*Este metodo se utiliza para agregar los datos de la consulta a los 
              textbox de la interfaz ModificarCliente*/
@@ -300,12 +329,14 @@ namespace Tecnocom_Wolf
             Conexion.Close();
         }
 
-        public void ConsultaDatos(DataGridView Datos, TextBox ClaveT)
+        public void ConsultasTareasDgv()
         {
-            string Cadena = "";
-          
-                 Cadena = "SELECT  * FROM CONSULTARDATOS WHERE CLAVE_TRABAJO = '" + ClaveT.Text + "'";
-            
+
+        }
+        public void ConsultaDatos(DataGridView Datos , string Cadena, ComboBox CbxClaveT)
+        {
+            Cadena = "SELECT  * FROM CONSULTARDATOS WHERE CLAVE_TRABAJO = '" + CbxClaveT.Text + "'";
+
             Conexion.Open();
 
             SqlCommand comando = new SqlCommand(Cadena, Conexion);
@@ -313,7 +344,7 @@ namespace Tecnocom_Wolf
             while (sqldr.Read())
             {
                 Datos.Rows.Add(sqldr["CLAVE_TRABAJO"].ToString(), sqldr["NOMBRE"].ToString(), sqldr["CLAVE_EMPLEADO"].ToString()
-                , sqldr["NOMBRE"].ToString(), sqldr["NUM_CLIENTE"].ToString(), sqldr["TIPOPC"].ToString(), sqldr["SISTEMA_OPERATIVO"].ToString()
+                , sqldr["NUM_CLIENTE"].ToString(), sqldr["TIPOPC"].ToString(), sqldr["SISTEMA_OPERATIVO"].ToString()
                 , sqldr["SOFTWARE_INSTALACION"].ToString(), sqldr["DESCRIPCION"].ToString(), sqldr["FECHA"].ToString()
                 , sqldr["PAGO"].ToString(), sqldr["ESTADO"].ToString(),sqldr["ANTICIPO"].ToString());
             }

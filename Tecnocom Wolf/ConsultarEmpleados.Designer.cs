@@ -65,7 +65,7 @@
             this.RbClave.AutoSize = true;
             this.RbClave.BackColor = System.Drawing.Color.Transparent;
             this.RbClave.ForeColor = System.Drawing.Color.Transparent;
-            this.RbClave.Location = new System.Drawing.Point(327, 199);
+            this.RbClave.Location = new System.Drawing.Point(322, 189);
             this.RbClave.Name = "RbClave";
             this.RbClave.Size = new System.Drawing.Size(102, 17);
             this.RbClave.TabIndex = 16;

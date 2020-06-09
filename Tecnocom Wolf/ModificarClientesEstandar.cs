@@ -57,7 +57,7 @@ namespace Tecnocom_Wolf
             bool band = true;
             string N = TxtNombre.Text;
             string C = TxtClave.Text;
-            string T = TxtTelefono.Text;
+            string T = mtbTelefono.Text;
             string D = TxtDireccion.Text;
 
             pictureBox1.Hide();
@@ -103,7 +103,7 @@ namespace Tecnocom_Wolf
                     pictureBox5.Show();
                     bande = false;
                 }
-                if (TxtTelefono.Text == "")
+                if (mtbTelefono.Text == "")
                 {
                     pictureBox4.Show();
                     bande = false;
@@ -122,7 +122,7 @@ namespace Tecnocom_Wolf
                 if (bande == true)
                 {
                     Operacion = "Actualizar";
-                    Registros.RegistrarClientes_ModificarClientes(TxtNombre, TxtClave, TxtDireccion, TxtCorreo, TxtTelefono, Operacion);
+                    Registros.RegistrarClientes_ModificarClientes(TxtNombre, TxtClave, TxtDireccion, TxtCorreo, mtbTelefono, Operacion);
 
 
                     CbxNombreM.Items.Clear();
@@ -154,7 +154,7 @@ namespace Tecnocom_Wolf
                 cadena = "SELECT * FROM CLIENTES WHERE NUM_CLIENTE =" + "'" + CbxClaveM.Text + "'";
             }
 
-            Consultas.CargarConsulta(TxtNombre, TxtClave, TxtCorreo, TxtDireccion, TxtTelefono, cadena);
+            Consultas.CargarConsulta(TxtNombre, TxtClave, TxtCorreo, TxtDireccion, mtbTelefono, cadena);
         
         }
 

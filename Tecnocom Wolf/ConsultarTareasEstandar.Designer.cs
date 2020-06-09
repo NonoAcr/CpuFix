@@ -31,10 +31,24 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultarTareasEstandar));
             this.DgvConsulta = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.BtnLimpiar = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Reg_clientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.Mod_clientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.Cons_clientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.tareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Add_tareas = new System.Windows.Forms.ToolStripMenuItem();
+            this.Cons_tareas = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.RbClave = new System.Windows.Forms.RadioButton();
+            this.CbxClaveT = new System.Windows.Forms.ComboBox();
             this.IDTarea = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NombreE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDEmpleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NombreC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TipoPc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SistemaO = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,21 +60,6 @@
             this.Anticipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Borrar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.TxtClaveTarea = new System.Windows.Forms.TextBox();
-            this.BtnLimpiar = new System.Windows.Forms.Button();
-            this.BtnBuscar = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.Reg_clientes = new System.Windows.Forms.ToolStripMenuItem();
-            this.Mod_clientes = new System.Windows.Forms.ToolStripMenuItem();
-            this.Cons_clientes = new System.Windows.Forms.ToolStripMenuItem();
-            this.tareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.Add_tareas = new System.Windows.Forms.ToolStripMenuItem();
-            this.Cons_tareas = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.DgvConsulta)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -72,7 +71,6 @@
             this.IDTarea,
             this.NombreE,
             this.IDEmpleado,
-            this.NombreC,
             this.IDCliente,
             this.TipoPc,
             this.SistemaO,
@@ -91,82 +89,6 @@
             this.DgvConsulta.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvConsulta_CellClick);
             this.DgvConsulta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvConsulta_CellContentClick);
             // 
-            // IDTarea
-            // 
-            this.IDTarea.HeaderText = "ID Tarea";
-            this.IDTarea.Name = "IDTarea";
-            // 
-            // NombreE
-            // 
-            this.NombreE.HeaderText = "Nombre Empleado";
-            this.NombreE.Name = "NombreE";
-            // 
-            // IDEmpleado
-            // 
-            this.IDEmpleado.HeaderText = "ID Empleado";
-            this.IDEmpleado.Name = "IDEmpleado";
-            // 
-            // NombreC
-            // 
-            this.NombreC.HeaderText = "Nombre Cliente";
-            this.NombreC.Name = "NombreC";
-            // 
-            // IDCliente
-            // 
-            this.IDCliente.HeaderText = "ID Cliente";
-            this.IDCliente.Name = "IDCliente";
-            // 
-            // TipoPc
-            // 
-            this.TipoPc.HeaderText = "Tipo Pc";
-            this.TipoPc.Name = "TipoPc";
-            // 
-            // SistemaO
-            // 
-            this.SistemaO.HeaderText = "Sistema Opertivo";
-            this.SistemaO.Name = "SistemaO";
-            // 
-            // SOI
-            // 
-            this.SOI.HeaderText = "Sistema O. I.";
-            this.SOI.Name = "SOI";
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.HeaderText = "Descripcion";
-            this.Descripcion.Name = "Descripcion";
-            // 
-            // Fecha
-            // 
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
-            // 
-            // Pago
-            // 
-            this.Pago.HeaderText = "Pago";
-            this.Pago.Name = "Pago";
-            // 
-            // Estado
-            // 
-            this.Estado.HeaderText = "Estado";
-            this.Estado.Name = "Estado";
-            // 
-            // Anticipo
-            // 
-            this.Anticipo.HeaderText = "Anticipo";
-            this.Anticipo.Name = "Anticipo";
-            // 
-            // Modificar
-            // 
-            this.Modificar.HeaderText = "Modificar";
-            this.Modificar.Name = "Modificar";
-            this.Modificar.Text = "Modificar";
-            // 
-            // Borrar
-            // 
-            this.Borrar.HeaderText = "Borrar";
-            this.Borrar.Name = "Borrar";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -184,42 +106,22 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(164, 170);
+            this.label2.Location = new System.Drawing.Point(164, 185);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Clave De Tarea";
             // 
-            // TxtClaveTarea
-            // 
-            this.TxtClaveTarea.Location = new System.Drawing.Point(268, 167);
-            this.TxtClaveTarea.MaxLength = 6;
-            this.TxtClaveTarea.Name = "TxtClaveTarea";
-            this.TxtClaveTarea.Size = new System.Drawing.Size(100, 20);
-            this.TxtClaveTarea.TabIndex = 1;
-            this.TxtClaveTarea.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtClaveTarea_KeyPress);
-            // 
             // BtnLimpiar
             // 
             this.BtnLimpiar.ForeColor = System.Drawing.Color.Black;
-            this.BtnLimpiar.Location = new System.Drawing.Point(519, 165);
+            this.BtnLimpiar.Location = new System.Drawing.Point(514, 175);
             this.BtnLimpiar.Name = "BtnLimpiar";
             this.BtnLimpiar.Size = new System.Drawing.Size(75, 23);
             this.BtnLimpiar.TabIndex = 3;
             this.BtnLimpiar.Text = "Limpiar";
             this.BtnLimpiar.UseVisualStyleBackColor = true;
             this.BtnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
-            // 
-            // BtnBuscar
-            // 
-            this.BtnBuscar.ForeColor = System.Drawing.Color.Black;
-            this.BtnBuscar.Location = new System.Drawing.Point(410, 165);
-            this.BtnBuscar.Name = "BtnBuscar";
-            this.BtnBuscar.Size = new System.Drawing.Size(75, 23);
-            this.BtnBuscar.TabIndex = 2;
-            this.BtnBuscar.Text = "Buscar";
-            this.BtnBuscar.UseVisualStyleBackColor = true;
-            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // menuStrip1
             // 
@@ -300,6 +202,99 @@
             this.timer1.Interval = 60000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // RbClave
+            // 
+            this.RbClave.AutoSize = true;
+            this.RbClave.BackColor = System.Drawing.Color.Transparent;
+            this.RbClave.Location = new System.Drawing.Point(433, 180);
+            this.RbClave.Name = "RbClave";
+            this.RbClave.Size = new System.Drawing.Size(14, 13);
+            this.RbClave.TabIndex = 15;
+            this.RbClave.TabStop = true;
+            this.RbClave.UseVisualStyleBackColor = false;
+            this.RbClave.CheckedChanged += new System.EventHandler(this.RbClave_CheckedChanged);
+            // 
+            // CbxClaveT
+            // 
+            this.CbxClaveT.FormattingEnabled = true;
+            this.CbxClaveT.Location = new System.Drawing.Point(252, 177);
+            this.CbxClaveT.MaxLength = 6;
+            this.CbxClaveT.Name = "CbxClaveT";
+            this.CbxClaveT.Size = new System.Drawing.Size(163, 21);
+            this.CbxClaveT.TabIndex = 16;
+            this.CbxClaveT.SelectedIndexChanged += new System.EventHandler(this.CbxClaveT_SelectedIndexChanged);
+            // 
+            // IDTarea
+            // 
+            this.IDTarea.HeaderText = "ID Tarea";
+            this.IDTarea.Name = "IDTarea";
+            // 
+            // NombreE
+            // 
+            this.NombreE.HeaderText = "Nombre Empleado";
+            this.NombreE.Name = "NombreE";
+            // 
+            // IDEmpleado
+            // 
+            this.IDEmpleado.HeaderText = "ID Empleado";
+            this.IDEmpleado.Name = "IDEmpleado";
+            // 
+            // IDCliente
+            // 
+            this.IDCliente.HeaderText = "ID Cliente";
+            this.IDCliente.Name = "IDCliente";
+            // 
+            // TipoPc
+            // 
+            this.TipoPc.HeaderText = "Tipo Pc";
+            this.TipoPc.Name = "TipoPc";
+            // 
+            // SistemaO
+            // 
+            this.SistemaO.HeaderText = "Sistema Opertivo";
+            this.SistemaO.Name = "SistemaO";
+            // 
+            // SOI
+            // 
+            this.SOI.HeaderText = "Sistema O. I.";
+            this.SOI.Name = "SOI";
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.HeaderText = "Descripcion";
+            this.Descripcion.Name = "Descripcion";
+            // 
+            // Fecha
+            // 
+            this.Fecha.HeaderText = "Fecha";
+            this.Fecha.Name = "Fecha";
+            // 
+            // Pago
+            // 
+            this.Pago.HeaderText = "Pago";
+            this.Pago.Name = "Pago";
+            // 
+            // Estado
+            // 
+            this.Estado.HeaderText = "Estado";
+            this.Estado.Name = "Estado";
+            // 
+            // Anticipo
+            // 
+            this.Anticipo.HeaderText = "Anticipo";
+            this.Anticipo.Name = "Anticipo";
+            // 
+            // Modificar
+            // 
+            this.Modificar.HeaderText = "Modificar";
+            this.Modificar.Name = "Modificar";
+            this.Modificar.Text = "Modificar";
+            // 
+            // Borrar
+            // 
+            this.Borrar.HeaderText = "Borrar";
+            this.Borrar.Name = "Borrar";
+            // 
             // ConsultarTareasEstandar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -307,10 +302,10 @@
             this.BackgroundImage = global::Tecnocom_Wolf.Properties.Resources.fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(947, 417);
+            this.Controls.Add(this.RbClave);
+            this.Controls.Add(this.CbxClaveT);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.BtnBuscar);
             this.Controls.Add(this.BtnLimpiar);
-            this.Controls.Add(this.TxtClaveTarea);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DgvConsulta);
@@ -337,13 +332,22 @@
         private System.Windows.Forms.DataGridView DgvConsulta;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox TxtClaveTarea;
         private System.Windows.Forms.Button BtnLimpiar;
-        private System.Windows.Forms.Button BtnBuscar;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Reg_clientes;
+        private System.Windows.Forms.ToolStripMenuItem Mod_clientes;
+        private System.Windows.Forms.ToolStripMenuItem Cons_clientes;
+        private System.Windows.Forms.ToolStripMenuItem tareasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Add_tareas;
+        private System.Windows.Forms.ToolStripMenuItem Cons_tareas;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.RadioButton RbClave;
+        private System.Windows.Forms.ComboBox CbxClaveT;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDTarea;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreE;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDEmpleado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NombreC;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDCliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn TipoPc;
         private System.Windows.Forms.DataGridViewTextBoxColumn SistemaO;
@@ -355,15 +359,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Anticipo;
         private System.Windows.Forms.DataGridViewButtonColumn Modificar;
         private System.Windows.Forms.DataGridViewButtonColumn Borrar;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem Reg_clientes;
-        private System.Windows.Forms.ToolStripMenuItem Mod_clientes;
-        private System.Windows.Forms.ToolStripMenuItem Cons_clientes;
-        private System.Windows.Forms.ToolStripMenuItem tareasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem Add_tareas;
-        private System.Windows.Forms.ToolStripMenuItem Cons_tareas;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
-        private System.Windows.Forms.Timer timer1;
     }
 }

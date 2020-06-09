@@ -10,7 +10,7 @@ namespace Tecnocom_Wolf
 {
     class Validaciones
     {
-        public void ValidarRegistrarClientes(TextBox TxtNombre, TextBox TxtIdClave, TextBox TxtDireccion, TextBox TxtCorreo, TextBox TxtTelefono, PictureBox pictureBox1,
+        public void ValidarRegistrarClientes(TextBox TxtNombre, TextBox TxtIdClave, TextBox TxtDireccion, TextBox TxtCorreo, MaskedTextBox mtbTelefono, PictureBox pictureBox1,
         PictureBox pictureBox2, PictureBox pictureBox3, PictureBox pictureBox4, PictureBox pictureBox5)
         {
             string Clave = "", Operacion = "";
@@ -18,7 +18,7 @@ namespace Tecnocom_Wolf
             bool band = true;
             string N = TxtNombre.Text;
             string C = TxtIdClave.Text;
-            string T = TxtTelefono.Text;
+            string T = mtbTelefono.Text;
             string D = TxtDireccion.Text;
             Consultas Consultas = new Consultas();
             Registros Registros = new Registros();
@@ -66,7 +66,7 @@ namespace Tecnocom_Wolf
                     pictureBox5.Show();
                     bande = false;
                 }
-                if (TxtTelefono.Text == "")
+                if (mtbTelefono.Text == "")
                 {
                     pictureBox4.Show();
                     bande = false;
@@ -93,9 +93,9 @@ namespace Tecnocom_Wolf
                     }
                     else
                     {
-                        Registros.RegistrarClientes_ModificarClientes(TxtNombre, TxtIdClave, TxtDireccion, TxtCorreo, TxtTelefono, Operacion);
+                        Registros.RegistrarClientes_ModificarClientes(TxtNombre, TxtIdClave, TxtDireccion, TxtCorreo, mtbTelefono, Operacion);
                         MessageBox.Show("Agregado");
-                        Limpiar(TxtNombre, TxtIdClave, TxtDireccion, TxtCorreo, TxtTelefono, pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5);
+                        Limpiar(TxtNombre, TxtIdClave, TxtDireccion, TxtCorreo, mtbTelefono, pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5);
 
                     }
                 }
@@ -106,7 +106,7 @@ namespace Tecnocom_Wolf
                 }
             }
         }
-        public void Limpiar(TextBox TxtNombre, TextBox TxtClave, TextBox TxtDireccion, TextBox TxtCorreo, TextBox TxtTelefono, PictureBox pictureBox1,
+        public void Limpiar(TextBox TxtNombre, TextBox TxtClave, TextBox TxtDireccion, TextBox TxtCorreo, MaskedTextBox mtbTelefono, PictureBox pictureBox1,
         PictureBox pictureBox2, PictureBox pictureBox3, PictureBox pictureBox4, PictureBox pictureBox5)
         {
             TxtNombre.Text = "";
@@ -114,7 +114,7 @@ namespace Tecnocom_Wolf
             TxtCorreo.Text = "";
             TxtDireccion.Text = "";
             TxtClave.Text = "";
-            TxtTelefono.Text = "";
+            mtbTelefono.Text = "";
             TxtNombre.Focus();
             pictureBox1.Hide();
             pictureBox2.Hide();
