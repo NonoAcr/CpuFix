@@ -26,7 +26,7 @@ namespace Tecnocom_Wolf
         string Aux = "";
         Consultas Consultas = new Consultas();
         Registros Registros = new Registros();
-        SqlConnection Conexion = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog = cpu_fix; integrated security = true");
+        SqlConnection Conexion = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog = cpu_fix; integrated security = true");
 
         private void RbNombre_CheckedChanged(object sender, EventArgs e)
         {
@@ -169,7 +169,7 @@ namespace Tecnocom_Wolf
             TxtClave.Text = "";
             TxtDireccion.Text = "";
             TxtClave.Text = "";
-            TxtTelefono.Text = "";
+            mtbTelefono.Text = "";
             TxtNombre.Focus();
             TxtCorreo.Text = "";
             pictureBox1.Hide();

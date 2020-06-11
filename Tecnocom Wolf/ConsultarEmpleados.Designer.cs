@@ -36,11 +36,6 @@
             this.LbClaveE = new System.Windows.Forms.Label();
             this.LbNombre = new System.Windows.Forms.Label();
             this.DgvConsulta = new System.Windows.Forms.DataGridView();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Clave_Empleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TipoE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ID_Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,6 +51,10 @@
             this.Cons_tarea = new System.Windows.Forms.ToolStripMenuItem();
             this.respaldoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Clave_Empleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TipoE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ID_Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DgvConsulta)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -142,44 +141,13 @@
             this.Nombre,
             this.Clave_Empleado,
             this.TipoE,
-            this.ID_Usuario,
-            this.Eliminar});
+            this.ID_Usuario});
             this.DgvConsulta.Location = new System.Drawing.Point(62, 246);
             this.DgvConsulta.Name = "DgvConsulta";
             this.DgvConsulta.RowHeadersVisible = false;
-            this.DgvConsulta.Size = new System.Drawing.Size(368, 140);
+            this.DgvConsulta.Size = new System.Drawing.Size(321, 140);
             this.DgvConsulta.TabIndex = 4;
             this.DgvConsulta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvConsulta_CellContentClick);
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.Width = 69;
-            // 
-            // Clave_Empleado
-            // 
-            this.Clave_Empleado.HeaderText = "Clave";
-            this.Clave_Empleado.Name = "Clave_Empleado";
-            this.Clave_Empleado.Width = 59;
-            // 
-            // TipoE
-            // 
-            this.TipoE.HeaderText = "Tipo Empleado";
-            this.TipoE.Name = "TipoE";
-            this.TipoE.Width = 95;
-            // 
-            // ID_Usuario
-            // 
-            this.ID_Usuario.HeaderText = "ID De Usuario";
-            this.ID_Usuario.Name = "ID_Usuario";
-            this.ID_Usuario.Width = 91;
-            // 
-            // Eliminar
-            // 
-            this.Eliminar.HeaderText = "Eliminar";
-            this.Eliminar.Name = "Eliminar";
-            this.Eliminar.Width = 49;
             // 
             // label1
             // 
@@ -306,6 +274,30 @@
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar sesion";
             this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.Width = 69;
+            // 
+            // Clave_Empleado
+            // 
+            this.Clave_Empleado.HeaderText = "Clave";
+            this.Clave_Empleado.Name = "Clave_Empleado";
+            this.Clave_Empleado.Width = 59;
+            // 
+            // TipoE
+            // 
+            this.TipoE.HeaderText = "Tipo Empleado";
+            this.TipoE.Name = "TipoE";
+            this.TipoE.Width = 95;
+            // 
+            // ID_Usuario
+            // 
+            this.ID_Usuario.HeaderText = "ID De Usuario";
+            this.ID_Usuario.Name = "ID_Usuario";
+            this.ID_Usuario.Width = 91;
+            // 
             // DgvConsultarEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -347,11 +339,6 @@
         private System.Windows.Forms.Label LbNombre;
         private System.Windows.Forms.DataGridView DgvConsulta;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Clave_Empleado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TipoE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID_Usuario;
-        private System.Windows.Forms.DataGridViewButtonColumn Eliminar;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem Reg_empleado;
@@ -366,5 +353,9 @@
         private System.Windows.Forms.ToolStripMenuItem Cons_tarea;
         private System.Windows.Forms.ToolStripMenuItem respaldoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Clave_Empleado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TipoE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID_Usuario;
     }
 }

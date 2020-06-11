@@ -122,21 +122,21 @@
             // Reg_empleado
             // 
             this.Reg_empleado.Name = "Reg_empleado";
-            this.Reg_empleado.Size = new System.Drawing.Size(180, 22);
+            this.Reg_empleado.Size = new System.Drawing.Size(125, 22);
             this.Reg_empleado.Text = "Registrar";
             this.Reg_empleado.Click += new System.EventHandler(this.Reg_empleado_Click_1);
             // 
             // Cons_empleado
             // 
             this.Cons_empleado.Name = "Cons_empleado";
-            this.Cons_empleado.Size = new System.Drawing.Size(180, 22);
+            this.Cons_empleado.Size = new System.Drawing.Size(125, 22);
             this.Cons_empleado.Text = "Consultar";
             this.Cons_empleado.Click += new System.EventHandler(this.Cons_empleado_Click_1);
             // 
             // Mod_empleado
             // 
             this.Mod_empleado.Name = "Mod_empleado";
-            this.Mod_empleado.Size = new System.Drawing.Size(180, 22);
+            this.Mod_empleado.Size = new System.Drawing.Size(125, 22);
             this.Mod_empleado.Text = "Modificar";
             this.Mod_empleado.Click += new System.EventHandler(this.Mod_empleado_Click_1);
             // 
@@ -153,21 +153,21 @@
             // Reg_cliente
             // 
             this.Reg_cliente.Name = "Reg_cliente";
-            this.Reg_cliente.Size = new System.Drawing.Size(180, 22);
+            this.Reg_cliente.Size = new System.Drawing.Size(125, 22);
             this.Reg_cliente.Text = "Registrar";
             this.Reg_cliente.Click += new System.EventHandler(this.Reg_cliente_Click_1);
             // 
             // Mod_cliente
             // 
             this.Mod_cliente.Name = "Mod_cliente";
-            this.Mod_cliente.Size = new System.Drawing.Size(180, 22);
+            this.Mod_cliente.Size = new System.Drawing.Size(125, 22);
             this.Mod_cliente.Text = "Modificar";
             this.Mod_cliente.Click += new System.EventHandler(this.Mod_cliente_Click_1);
             // 
             // Cons_cliente
             // 
             this.Cons_cliente.Name = "Cons_cliente";
-            this.Cons_cliente.Size = new System.Drawing.Size(180, 22);
+            this.Cons_cliente.Size = new System.Drawing.Size(125, 22);
             this.Cons_cliente.Text = "Consultar";
             this.Cons_cliente.Click += new System.EventHandler(this.Cons_cliente_Click_1);
             // 
@@ -183,14 +183,14 @@
             // Add_tarea
             // 
             this.Add_tarea.Name = "Add_tarea";
-            this.Add_tarea.Size = new System.Drawing.Size(180, 22);
+            this.Add_tarea.Size = new System.Drawing.Size(125, 22);
             this.Add_tarea.Text = "Agregar";
             this.Add_tarea.Click += new System.EventHandler(this.Add_tarea_Click_1);
             // 
             // Cons_tarea
             // 
             this.Cons_tarea.Name = "Cons_tarea";
-            this.Cons_tarea.Size = new System.Drawing.Size(180, 22);
+            this.Cons_tarea.Size = new System.Drawing.Size(125, 22);
             this.Cons_tarea.Text = "Consultar";
             this.Cons_tarea.Click += new System.EventHandler(this.Cons_tarea_Click_1);
             // 

@@ -23,7 +23,7 @@ namespace Tecnocom_Wolf
         public string b = "";
 
         #region Backup BD
-        SqlConnection Con = new SqlConnection("server = DESKTOP-P381C99; Initial Catalog =cpu_fix ; integrated security = true");
+        SqlConnection Con = new SqlConnection("server = LAPTOP-43NCBRR5\\SQLEXPRESS; Initial Catalog =cpu_fix ; integrated security = true");
 
         public SqlConnection Con1 { get => Con; set => Con = value; }
 
